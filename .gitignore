@@ -1,0 +1,9 @@
+# Gerber output files
+*.zip
+*.gbr
+*.xln
+*.gbrjob
+
+# KiCAD files, I think (normally created by accident)
+*.pro
+*.job
