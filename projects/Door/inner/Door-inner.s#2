@@ -26928,9 +26928,9 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="power" width="1.016" drill="0">
+<class number="1" name="power" width="0.4064" drill="0">
 </class>
-<class number="2" name="gnd" width="0.8128" drill="0">
+<class number="2" name="gnd" width="0.4064" drill="0">
 </class>
 <class number="3" name="vin" width="1.4224" drill="0">
 </class>
