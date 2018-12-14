@@ -41004,7 +41004,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="-287.02" y="-25.4" size="2.54" layer="108">X</text>
 <text x="-381" y="-25.4" size="2.54" layer="108">Y</text>
 <text x="-383.54" y="-68.58" size="2.54" layer="108">E1</text>
-<text x="-406.4" y="-121.92" size="5.08" layer="108">Heaters &amp; Fans</text>
+<text x="-406.4" y="-116.84" size="5.08" layer="108">Heaters &amp; Fans</text>
 <text x="-43.18" y="-114.3" size="5.08" layer="108">Power</text>
 <text x="-63.5" y="-76.2" size="2.54" layer="108" rot="R90">Thermistor 0</text>
 <text x="-25.4" y="25.4" size="5.08" layer="108">Endstops</text>
@@ -41014,11 +41014,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="-7.62" y="-76.2" size="2.54" layer="108" rot="R90">Thermistor 2</text>
 <text x="-114.3" y="25.4" size="5.08" layer="108">I2C</text>
 <text x="-414.02" y="2.54" size="5.08" layer="108">LED</text>
-<text x="-43.18" y="-25.4" size="5.08" layer="108">Thermistors</text>
+<text x="-33.02" y="-25.4" size="5.08" layer="108">Thermistors</text>
 <text x="-213.36" y="-25.4" size="5.08" layer="108">Stepper Drivers</text>
 <text x="-119.38" y="-114.3" size="5.08" layer="108">Reset</text>
 <text x="-177.8" y="25.4" size="5.08" layer="108">AUX</text>
-<text x="-170.18" y="-116.84" size="5.08" layer="108">ICSP</text>
+<text x="-170.18" y="-114.3" size="5.08" layer="108">ICSP</text>
 <text x="-665.48" y="78.74" size="5.08" layer="108">AUX-4</text>
 <text x="-300.99" y="-270.51" size="1.6764" layer="91">pwm</text>
 <text x="20.32" y="-76.2" size="2.54" layer="108" rot="R90">Thermistor 3</text>
@@ -41055,15 +41055,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-299.72" y1="-15.24" x2="-210.82" y2="-15.24" width="0.1524" layer="108"/>
 <wire x1="-210.82" y1="-15.24" x2="53.34" y2="-15.24" width="0.1524" layer="108"/>
 <wire x1="-419.1" y1="-15.24" x2="-419.1" y2="10.16" width="0.1524" layer="108"/>
-<wire x1="-419.1" y1="12.7" x2="-419.1" y2="35.56" width="0.1524" layer="108"/>
+<wire x1="-419.1" y1="10.16" x2="-419.1" y2="35.56" width="0.1524" layer="108"/>
 <wire x1="-419.1" y1="35.56" x2="-299.72" y2="35.56" width="0.1524" layer="108"/>
 <wire x1="-210.82" y1="35.56" x2="-132.08" y2="35.56" width="0.1524" layer="108"/>
 <wire x1="-299.72" y1="-15.24" x2="-299.72" y2="10.16" width="0.1524" layer="108"/>
 <wire x1="-299.72" y1="10.16" x2="-299.72" y2="35.56" width="0.1524" layer="108"/>
 <wire x1="-299.72" y1="35.56" x2="-210.82" y2="35.56" width="0.1524" layer="108"/>
 <wire x1="-210.82" y1="35.56" x2="-210.82" y2="-15.24" width="0.1524" layer="108"/>
-<wire x1="-419.1" y1="12.7" x2="-419.1" y2="10.16" width="0.1524" layer="108"/>
 <wire x1="-419.1" y1="10.16" x2="-299.72" y2="10.16" width="0.1524" layer="108"/>
+<text x="-287.02" y="-116.84" size="5.08" layer="108">ATMEGA 2560</text>
+<text x="-53.34" y="-187.96" size="5.08" layer="108">ATMEGA 16U2 Serial Controller</text>
 </plain>
 <instances>
 <instance part="P+3" gate="1" x="-299.72" y="-152.4">
@@ -41377,9 +41378,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="-21.844" y="-128.905" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-21.844" y="-133.731" size="1.778" layer="96"/>
 </instance>
-<instance part="PS-ON" gate="G$1" x="-55.88" y="-132.08">
-<attribute name="NAME" x="-62.23" y="-128.905" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-62.23" y="-137.16" size="1.778" layer="96"/>
+<instance part="PS-ON" gate="G$1" x="-55.88" y="-132.08" rot="R180">
+<attribute name="NAME" x="-49.53" y="-135.255" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-49.53" y="-127" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND83" gate="1" x="-154.94" y="-99.06">
 <attribute name="VALUE" x="-157.48" y="-101.6" size="1.778" layer="96"/>
@@ -41659,8 +41660,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+8" gate="1" x="-83.82" y="-83.82">
 <attribute name="VALUE" x="-86.36" y="-88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND13" gate="1" x="-124.46" y="-91.44">
-<attribute name="VALUE" x="-127" y="-93.98" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="-124.46" y="-93.98">
+<attribute name="VALUE" x="-127" y="-96.52" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="-88.9" y="-203.2" rot="R90">
 <attribute name="NAME" x="-90.3986" y="-207.01" size="1.778" layer="95" rot="R90"/>
@@ -42465,9 +42466,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-121.92" y="-48.26" size="1.778" layer="95"/>
 <pinref part="AUX-4" gate="G$1" pin="3"/>
 <wire x1="-124.46" y1="-73.66" x2="-124.46" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="-88.9" x2="-124.46" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="-124.46" y="-88.9"/>
+<wire x1="-124.46" y1="-91.44" x2="-124.46" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="-124.46" y="-73.66"/>
+<junction x="-124.46" y="-88.9"/>
+<wire x1="-124.46" y1="-88.9" x2="-124.46" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND77" gate="1" pin="GND"/>
@@ -43251,8 +43253,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="ATMEGA2560" gate="1" pin="(OC0A/OC1C/PCINT7)PB7"/>
 </segment>
 <segment>
-<wire x1="-386.08" y1="-2.54" x2="-391.16" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-391.16" y="-2.54" size="1.778" layer="95"/>
+<wire x1="-386.08" y1="-2.54" x2="-398.78" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-398.78" y="-2.54" size="1.778" layer="95"/>
 <pinref part="RN3" gate="A" pin="2"/>
 </segment>
 </net>
@@ -43323,7 +43325,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="ATMEGA2560" gate="1" pin="(SS/PCINT0)PB0"/>
 </segment>
 <segment>
-<wire x1="-48.26" y1="-132.08" x2="-73.66" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-132.08" x2="-73.66" y2="-132.08" width="0.1524" layer="91"/>
 <label x="-73.66" y="-132.08" size="1.778" layer="95"/>
 <pinref part="PS-ON" gate="G$1" pin="1"/>
 </segment>

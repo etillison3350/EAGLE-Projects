@@ -5363,14 +5363,7 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/3982/3982.pdf</desc
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="A4983CARRIER">
-<gates>
-<gate name="G$1" symbol="A4988BREAKOUT" x="5.08" y="7.62"/>
-</gates>
-<devices>
-<device name="" package="A4988BREAKOUT">
+<device name="A4988BREAKOUT-NONAMES" package="A4988BREAKOUT-NONAMES">
 <connects>
 <connect gate="G$1" pin="1A" pad="1A"/>
 <connect gate="G$1" pin="1B" pad="1B"/>
@@ -5395,12 +5388,12 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/3982/3982.pdf</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="A4988BREAKOUT-NONAMES">
+<deviceset name="A4983CARRIER">
 <gates>
 <gate name="G$1" symbol="A4988BREAKOUT" x="5.08" y="7.62"/>
 </gates>
 <devices>
-<device name="" package="A4988BREAKOUT-NONAMES">
+<device name="" package="A4988BREAKOUT">
 <connects>
 <connect gate="G$1" pin="1A" pad="1A"/>
 <connect gate="G$1" pin="1B" pad="1B"/>

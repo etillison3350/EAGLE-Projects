@@ -41019,7 +41019,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="-119.38" y="-114.3" size="5.08" layer="108">Reset</text>
 <text x="-177.8" y="25.4" size="5.08" layer="108">AUX</text>
 <text x="-170.18" y="-114.3" size="5.08" layer="108">ICSP</text>
-<text x="-665.48" y="78.74" size="5.08" layer="108">AUX-4</text>
 <text x="-300.99" y="-270.51" size="1.6764" layer="91">pwm</text>
 <text x="20.32" y="-76.2" size="2.54" layer="108" rot="R90">Thermistor 3</text>
 <text x="-414.02" y="15.24" size="3.81" layer="108">Based on Arduino Mega 2560 and RAMPS 1.4</text>
@@ -41100,9 +41099,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+5" gate="1" x="-345.44" y="2.54">
 <attribute name="VALUE" x="-343.535" y="5.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="FD1" gate="G$1" x="-66.04" y="198.12"/>
-<instance part="FD2" gate="G$1" x="-58.42" y="198.12"/>
-<instance part="FD3" gate="G$1" x="-50.8" y="198.12"/>
+<instance part="FD1" gate="G$1" x="-401.32" y="-284.48"/>
+<instance part="FD2" gate="G$1" x="-393.7" y="-284.48"/>
+<instance part="FD3" gate="G$1" x="-386.08" y="-284.48"/>
 <instance part="GND11" gate="1" x="15.24" y="-170.18">
 <attribute name="VALUE" x="12.7" y="-172.72" size="1.778" layer="96"/>
 </instance>
@@ -41258,7 +41257,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="-7.62" y="-238.76" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-7.62" y="-246.38" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="FD4" gate="G$1" x="-43.18" y="198.12"/>
+<instance part="FD4" gate="G$1" x="-378.46" y="-284.48"/>
 <instance part="R2" gate="G$1" x="-88.9" y="-226.06" rot="R90">
 <attribute name="NAME" x="-91.44" y="-224.3836" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-90.805" y="-226.568" size="1.778" layer="96" rot="R180"/>
@@ -41378,9 +41377,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="-21.844" y="-128.905" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-21.844" y="-133.731" size="1.778" layer="96"/>
 </instance>
-<instance part="PS-ON" gate="G$1" x="-55.88" y="-132.08">
-<attribute name="NAME" x="-62.23" y="-128.905" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-62.23" y="-137.16" size="1.778" layer="96"/>
+<instance part="PS-ON" gate="G$1" x="-55.88" y="-132.08" rot="R180">
+<attribute name="NAME" x="-49.53" y="-135.255" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-49.53" y="-127" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND83" gate="1" x="-154.94" y="-99.06">
 <attribute name="VALUE" x="-157.48" y="-101.6" size="1.778" layer="96"/>
@@ -41527,7 +41526,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="-367.03" y="-225.0186" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-367.03" y="-220.218" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LOGO2" gate="G$1" x="-76.2" y="198.12"/>
+<instance part="LOGO2" gate="G$1" x="-411.48" y="-284.48"/>
 <instance part="L7" gate="G$1" x="-378.46" y="-152.4" rot="R180">
 <attribute name="NAME" x="-382.016" y="-147.828" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-384.175" y="-147.828" size="1.778" layer="96" rot="R270"/>
@@ -43253,8 +43252,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="ATMEGA2560" gate="1" pin="(OC0A/OC1C/PCINT7)PB7"/>
 </segment>
 <segment>
-<wire x1="-386.08" y1="-2.54" x2="-391.16" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-391.16" y="-2.54" size="1.778" layer="95"/>
+<wire x1="-386.08" y1="-2.54" x2="-398.78" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-398.78" y="-2.54" size="1.778" layer="95"/>
 <pinref part="RN3" gate="A" pin="2"/>
 </segment>
 </net>
@@ -43325,7 +43324,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="ATMEGA2560" gate="1" pin="(SS/PCINT0)PB0"/>
 </segment>
 <segment>
-<wire x1="-48.26" y1="-132.08" x2="-73.66" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-132.08" x2="-73.66" y2="-132.08" width="0.1524" layer="91"/>
 <label x="-73.66" y="-132.08" size="1.778" layer="95"/>
 <pinref part="PS-ON" gate="G$1" pin="1"/>
 </segment>
