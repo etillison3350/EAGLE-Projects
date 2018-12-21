@@ -586,11 +586,11 @@ Source: &lt;a href="http://www.fairchildsemi.com/ds/MO%2FMOCD207-M.pdf"&gt; Data
 <pin name="INT" x="-15.24" y="5.08" length="middle" direction="out"/>
 </symbol>
 <symbol name="SI87XX">
-<pin name="A1" x="-12.7" y="5.08" length="middle"/>
-<pin name="C1" x="-12.7" y="-5.08" length="middle"/>
-<pin name="VDD" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="OUT" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="A1" x="-12.7" y="5.08" length="middle" direction="in"/>
+<pin name="C1" x="-12.7" y="-5.08" length="middle" direction="out"/>
+<pin name="VDD" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
@@ -687,6 +687,25 @@ Source: &lt;a href="http://www.fairchildsemi.com/ds/MO%2FMOCD207-M.pdf"&gt; Data
 <connect gate="G$1" pin="SCL" pad="19"/>
 <connect gate="G$1" pin="SDA" pad="20"/>
 <connect gate="G$1" pin="VCC" pad="18"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI87XX">
+<gates>
+<gate name="G$1" symbol="SI87XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="IS" package="SOIC08-FAIRCHILD">
+<connects>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="C1" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
