@@ -350,6 +350,12 @@ UsedLibraryUrn="urn:adsk.eagle:library:174"
 UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
+UsedLibrary="A:/Users/Ethan Tillison/Documents/EAGLE/libraries/RepRapjr.lbr"
+UsedLibrary="A:/Users/Ethan Tillison/Documents/EAGLE/libraries/SmartPrj.lbr"
+UsedLibrary="A:/Users/Ethan Tillison/Documents/EAGLE/libraries/SparkFun-Connectors.lbr"
+UsedLibrary="A:/Users/Ethan Tillison/Documents/EAGLE/libraries/Zero_V1.0.lbr"
+UsedLibrary="A:/Users/Ethan Tillison/Documents/EAGLE/libraries/con-other.lbr"
+UsedLibrary="A:/Users/Ethan Tillison/Documents/EAGLE/libraries/misc.lbr"
 UsedLibraryUrn="urn:adsk.eagle:library:513"
 
 [Win_1]
