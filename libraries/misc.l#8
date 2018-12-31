@@ -2232,7 +2232,7 @@ Source: http://www.farnell.com/datasheets/716597.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRYSTAL-4PIN">
+<deviceset name="CRYSTAL-4PIN" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CRYSTAL-4POL" x="0" y="0"/>
 </gates>
