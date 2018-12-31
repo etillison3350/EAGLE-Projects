@@ -1,0 +1,151 @@
+#usage "Renumbers the parts on a schematic."
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+// IN THE SOFTWARE.
+
+// Menu Options
+int xDesc = 0;
+int yDesc = 0;
+int xFirst = 0;
+string ignoredPrefixes = "TP";
+int sheetMultiplier = 0;
+
+void menu(void) {
+	int result = dlgDialog("Renumber Parts") {
+		dlgHBoxLayout {
+			dlgGroup("Sort X") {
+				dlgRadioButton("&Ascending", xDesc);
+				dlgRadioButton("&Descending", xDesc);
+			}
+			dlgGroup("Sort Y") {
+				dlgRadioButton("A&scending", yDesc);
+				dlgRadioButton("D&escending", yDesc);
+			}
+			dlgGroup("Sort by") {
+				dlgRadioButton("X then Y", xFirst);
+				dlgRadioButton("Y then X", xFirst);
+			}
+			dlgStretch(1);
+		}
+		
+		dlgVBoxLayout {
+			dlgLabel("Ignore parts with these prefixes (separate with ';')");
+			dlgStringEdit(ignoredPrefixes);
+		}
+		
+		dlgHBoxLayout {
+			dlgVBoxLayout dlgSpacing(180);
+			
+			dlgGroup("Numbering by Sheet") {
+				dlgLabel("Uses the sheet number while numbering parts");
+				dlgLabel("For example: 100 -> sheet 1: R101, R102...R199; sheet 2: R201...");
+				dlgLabel("Use 0 to disable");
+				
+				dlgHBoxLayout {
+					dlgLabel("Sheet numbering");
+					dlgIntEdit(sheetMultiplier, 0, 1000000);
+					dlgStretch(1);
+				}
+			}
+		}
+		
+		dlgHBoxLayout {
+			dlgPushButton("+&OK") dlgAccept();
+			dlgPushButton("-Cancel") dlgReject();
+		}
+	};
+	
+	if (!result) exit(0);
+	
+	return;
+}
+
+if (schematic) {
+	menu();
+	
+	schematic(sch) {
+		string c = "";
+		
+		string ignoredPrefixList[];
+		int numIgnored = strsplit(ignoredPrefixList, ignoredPrefixes, ';');
+		
+		int numParts = 0;
+		numeric string partNames[];
+		string prefixes[];
+		int xPositions[], yPositions[], partSheets[];
+		
+		int index[]; // Used for sorting
+		
+		sch.parts(part) {
+			// Find the last non-digit character in the part name. This separates the prefix from the number
+			string name = part.name;
+			int len = strlen(name) - 1;
+			for (int i = len; i >= 0; i--) { 
+				if (!isdigit(name[i])) {
+					if (i != len) { // If there is a number
+						string prefix = strsub(name, 0, i + 1);
+						
+						prefixes[numParts] = prefix;
+						
+						int ignore = 0;
+						for (int n = 0; n < numIgnored; n++) {
+							if (ignoredPrefixList[n] == prefix) {
+								ignore = 1;
+							}
+						}
+						if (ignore) continue;
+					
+						partNames[numParts] = name;
+						
+						part.instances(inst) {
+							xPositions[numParts] = (1 - 2 * xDesc) * inst.x; // If x or y is descending,
+							yPositions[numParts] = (2 * yDesc - 1) * inst.y; // multiply the coordinates by -1
+							partSheets[numParts] = inst.sheet;
+							break;
+						}
+						
+						numParts++;
+					}
+					break;
+				}
+			}
+		}
+		
+		if (xFirst) {
+			sort(numParts, index, prefixes, partSheets, yPositions, xPositions, partNames);
+		} else {
+			sort(numParts, index, prefixes, partSheets, xPositions, yPositions, partNames);
+		}
+		
+		string script = "";
+		
+		for (int i = 0; i < numParts; i++) {
+			sprintf(script, "%sNAME '%s' 'TEMP%dN';\n", script, partNames[index[i]], i);
+		}
+		
+		int n;
+		string lastPrefix = "";
+		for (int p = 0; p < numParts; p++) {
+			int part = index[p];
+						
+			if (prefixes[part] != lastPrefix) {
+				n = 1;
+			}
+			lastPrefix = prefixes[part];
+			
+			sprintf(script, "%sNAME 'TEMP%dN' '%s%d';\n", script, p, prefixes[part], n++);
+		}
+		
+		string file = filesetext(sch.name, "-renumber.scr");
+		output(file, "wtD") printf("%s", script);
+		exit("SCRIPT '" + file + "';");
+	}
+} else {
+	dlgMessageBox("This ULP must be run from a schematic", "OK");
+	exit(0);
+}

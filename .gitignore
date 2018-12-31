@@ -4,7 +4,6 @@ design blocks/
 design rules/
 scripts/
 spice/
-ulps/
 
 # Gerber output files
 *.zip
