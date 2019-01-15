@@ -27158,7 +27158,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="Q1" gate="A" pin="D"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="EXT_D" class="0">
 <segment>
 <wire x1="-228.6" y1="299.72" x2="-228.6" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="302.26" x2="-210.82" y2="302.26" width="0.1524" layer="91"/>
@@ -27172,7 +27172,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="BED_D" class="0">
 <segment>
 <pinref part="J3" gate="-3" pin="1"/>
 <wire x1="-228.6" y1="281.94" x2="-228.6" y2="284.48" width="0.1524" layer="91"/>
@@ -28068,21 +28068,21 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="Q1" gate="B" pin="G"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="EXT_G" class="0">
 <segment>
 <wire x1="-233.68" y1="292.1" x2="-236.22" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="BED_G" class="0">
 <segment>
 <wire x1="-233.68" y1="274.32" x2="-236.22" y2="274.32" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="EXT_L" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="1"/>
 <pinref part="EXT_L" gate="G$1" pin="A"/>
@@ -28090,7 +28090,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-210.82" y1="289.56" x2="-210.82" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="BED_L" class="0">
 <segment>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="-208.28" y1="271.78" x2="-210.82" y2="271.78" width="0.1524" layer="91"/>
