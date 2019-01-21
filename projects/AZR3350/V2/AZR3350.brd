@@ -173,7 +173,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYWY5YmU0" projecturn="a.cGVyc29uYWw6dWUyYWY5YmU0IzIwMTgwNTA2MTMwNzk4NzU2" f3durn="urn:adsk.wipprod:dm.lineage:kuXWruKTTaOPz3BH4Ln-3A" pcbguid="d37af17a-f244-4d48-a409-066ab10673dc" lastpulledtime="2018-12-23T19:18:06Z" lastsyncedchangeguid="be8ef955-5ed0-822f-98fb-6ab61c8e204d"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWY5YmU0" projecturn="a.cGVyc29uYWw6dWUyYWY5YmU0IzIwMTgwNTA2MTMwNzk4NzU2" f3durn="urn:adsk.wipprod:dm.lineage:kuXWruKTTaOPz3BH4Ln-3A" pcbguid="d37af17a-f244-4d48-a409-066ab10673dc" lastpulledtime="2018-12-23T19:18:06Z" lastsyncedchangeguid="3156e022-bcee-c61a-6c6a-6cfe737a60f8"/>
 <plain>
 <wire x1="-26.4182" y1="-35.978" x2="-26.4182" y2="6.322" width="0" layer="52" locked="yes"/>
 <wire x1="-26.4182" y1="6.322" x2="15.8818" y2="6.322" width="0" layer="52" locked="yes"/>
