@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -3587,7 +3587,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="131.323" y="136.903" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="100k" x="125.73" y="138.681" smashed="yes" rot="R90">
-<attribute name="NAME" x="126.619" y="140.84" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="123.952" y="140.078" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="127.635" y="138.046" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="128.651" y="135.506" smashed="yes" rot="R180">
@@ -3599,11 +3599,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="131.572" y="137.792" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="5.53k" x="132.207" y="137.665" smashed="yes" rot="R180">
-<attribute name="NAME" x="133.477" y="136.903" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="133.858" y="138.173" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="132.842" y="139.57" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="CD1206-S01575" x="133.353" y="135.255" smashed="yes">
-<attribute name="NAME" x="134.75" y="136.398" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="134.75" y="133.731" size="0.6096" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="D3" library="Diodi" package="DO220AAL" value="SS1P3L" x="129.289" y="124.46" smashed="yes" rot="R270">
 <attribute name="CASE" value="SMP" x="138.179" y="163.83" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3626,7 +3626,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="133.096" y="135.506" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" value="4.7uF" x="142.24" y="131.188" smashed="yes">
-<attribute name="NAME" x="141.732" y="129.791" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="142.748" y="131.95" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="141.605" y="129.283" size="1.27" layer="27"/>
 </element>
 <element name="IC2" library="we-power" package="SOT223" value="LDO-TS1117CW-3V3" x="138.3" y="125.095" smashed="yes" rot="R270">
@@ -3642,41 +3642,41 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="112.068" y="138.148" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="L1" library="Arduino" package="C0805" value="MH2029-300Y" x="111.382" y="130.81" smashed="yes" rot="R90">
-<attribute name="NAME" x="111.382" y="129.6035" size="0.6096" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="110.62" y="132.1435" size="0.6096" layer="25" font="vector" ratio="10" align="center"/>
 <attribute name="VALUE" x="111.382" y="132.3975" size="0.8128" layer="27" font="vector" ratio="10" align="center"/>
 </element>
 <element name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="BYS10-45-E3" x="107.572" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="106.429" y="130.429" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="106.429" y="132.588" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="10K" x="119.383" y="70.104" smashed="yes" rot="R180">
-<attribute name="NAME" x="117.224" y="70.866" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="120.78" y="69.215" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="120.018" y="72.009" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R39" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="10K" x="117.351" y="72.644" smashed="yes" rot="R90">
-<attribute name="NAME" x="117.986" y="70.993" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="116.589" y="72.009" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="119.256" y="72.009" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R41" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="4K7 0.1%" x="119.383" y="74.676" smashed="yes" rot="R90">
-<attribute name="NAME" x="118.748" y="72.39" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="118.621" y="75.819" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="121.288" y="74.041" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R40" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="4K7 0.1%" x="119.888" y="77.213" smashed="yes">
-<attribute name="NAME" x="121.793" y="76.324" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="118.364" y="77.975" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="119.253" y="75.308" size="1.27" layer="27"/>
 </element>
 <element name="C35" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" value="2.2u" x="119.891" y="72.136" smashed="yes">
-<attribute name="NAME" x="122.177" y="71.247" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="118.494" y="70.866" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="119.256" y="70.231" size="1.27" layer="27"/>
 </element>
 <element name="C34" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" value="2.2u" x="116.84" y="69.599" smashed="yes" rot="R270">
-<attribute name="NAME" x="115.824" y="67.313" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="116.205" y="67.313" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="114.935" y="70.234" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="J1" library="Arduino" package="USB-MICRO-10103594" value="ZX62-AB-5PA" x="100.333" y="92.424" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.333" y="87.648" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="D4" library="Arduino" package="SOT143B" value="PRTR5V0U2XB" x="105.794" y="92.678" smashed="yes">
-<attribute name="NAME" x="105.413" y="91.154" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="105.413" y="91.027" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="103.889" y="89.503" size="1.27" layer="27"/>
 </element>
 <element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="162.785" y="110.109" smashed="yes" rot="R90">
@@ -3690,19 +3690,19 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="162.052" y="120.996" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="1K" x="107.312" y="75.787" smashed="yes" rot="R90">
-<attribute name="NAME" x="108.106" y="74.168" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="107.979" y="74.168" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="109.852" y="75.152" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="1K" x="109.979" y="75.787" smashed="yes" rot="R90">
-<attribute name="NAME" x="110.646" y="74.168" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="111.027" y="76.454" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="112.519" y="75.152" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R36" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="180R" x="118.869" y="98.806" smashed="yes" rot="R90">
-<attribute name="NAME" x="119.758" y="100.076" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="121.79" y="98.933" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="121.409" y="98.171" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="180R" x="120.901" y="98.806" smashed="yes" rot="R90">
-<attribute name="NAME" x="119.377" y="98.933" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="117.345" y="99.06" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="123.441" y="98.171" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="EXT_L" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="118.11" y="109.344" smashed="yes" rot="R90">
@@ -3712,7 +3712,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="101.724" y="126.873" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R42" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="4K7" x="119.758" y="107.061" smashed="yes" rot="R270">
-<attribute name="NAME" x="121.155" y="105.791" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="121.282" y="105.664" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="117.218" y="107.696" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R43" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="4K7" x="102.232" y="125.857" smashed="yes" rot="R270">
@@ -3722,17 +3722,17 @@ design rules under a new name.</description>
 <element name="PWRIN" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MSTBA2" package3d_urn="urn:adsk.eagle:package:9615/1" value="MSTBA2" x="104.55" y="134.62" smashed="yes" rot="R90">
 <attribute name="MF" value="FARNELL" x="104.55" y="134.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1757242" x="104.55" y="134.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="104.645" y="132.112" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="104.137" y="129.572" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="3705171" x="104.55" y="134.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="71C4161" x="104.55" y="134.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="104.55" y="129.54" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="VIN" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="149.222" y="104.267" smashed="yes" rot="R180">
-<attribute name="NAME" x="149.857" y="106.299" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="149.476" y="106.299" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="146.682" y="105.537" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="3V3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="153.286" y="104.267" smashed="yes" rot="R180">
-<attribute name="NAME" x="153.921" y="106.299" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="153.921" y="106.299" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="150.746" y="105.537" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="4K7" x="149.222" y="100.457" smashed="yes" rot="R270">
@@ -3793,11 +3793,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="106.371" y="26.951" size="1.4224" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="470R" x="121.412" y="10.411" smashed="yes" rot="R180">
-<attribute name="NAME" x="120.269" y="9.014" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="123.698" y="9.649" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="122.047" y="12.316" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2K2" x="121.412" y="12.443" smashed="yes" rot="R180">
-<attribute name="NAME" x="123.063" y="12.189" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="123.698" y="11.808" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="122.047" y="14.348" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2K2" x="99.187" y="14.221" smashed="yes">
@@ -3809,11 +3809,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="98.552" y="14.348" size="1.27" layer="27"/>
 </element>
 <element name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2K2" x="100.838" y="20.571" smashed="yes" rot="R270">
-<attribute name="NAME" x="99.314" y="20.698" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="99.441" y="20.444" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="98.933" y="21.206" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2K2" x="100.835" y="23.876" smashed="yes" rot="R270">
-<attribute name="NAME" x="101.597" y="24.511" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="99.438" y="25.4" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="98.93" y="24.511" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4K7" x="121.412" y="14.475" smashed="yes">
@@ -3821,15 +3821,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="120.777" y="12.57" size="1.27" layer="27"/>
 </element>
 <element name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="47R" x="121.412" y="18.158" smashed="yes">
-<attribute name="NAME" x="119.888" y="18.92" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="121.539" y="16.761" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="120.777" y="16.253" size="1.27" layer="27"/>
 </element>
 <element name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="47R" x="121.412" y="20.19" smashed="yes">
-<attribute name="NAME" x="121.285" y="21.079" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="121.412" y="18.92" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="120.777" y="18.285" size="1.27" layer="27"/>
 </element>
 <element name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="47R" x="121.412" y="22.222" smashed="yes">
-<attribute name="NAME" x="119.761" y="21.587" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="120.904" y="23.111" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="120.777" y="20.317" size="1.27" layer="27"/>
 </element>
 <element name="C31" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u" x="114.427" y="29.334" smashed="yes" rot="R180">
@@ -3849,15 +3849,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="161.287" y="22.225" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="220R" x="166.5" y="18.669" smashed="yes">
-<attribute name="NAME" x="168.659" y="17.78" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="164.849" y="18.034" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="165.865" y="16.764" size="1.27" layer="27"/>
 </element>
 <element name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100R" x="160.655" y="22.355" smashed="yes" rot="R180">
-<attribute name="NAME" x="162.306" y="22.355" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="162.306" y="23.117" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="161.29" y="24.26" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="220R" x="168.783" y="20.698" smashed="yes">
-<attribute name="NAME" x="167.132" y="20.698" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="168.783" y="21.587" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="168.148" y="18.793" size="1.27" layer="27"/>
 </element>
 <element name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="220R" x="159.763" y="18.288" smashed="yes" rot="R180">
@@ -3865,7 +3865,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="160.398" y="20.193" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="220R" x="170.053" y="15.364" smashed="yes" rot="R270">
-<attribute name="NAME" x="171.069" y="16.38" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="169.418" y="13.84" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="168.148" y="15.999" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="220R" x="172.596" y="16.383" smashed="yes" rot="R180">
@@ -3873,27 +3873,27 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="173.231" y="18.288" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C33" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2K2" x="172.593" y="14.348" smashed="yes" rot="R180">
-<attribute name="NAME" x="171.831" y="15.745" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="173.99" y="13.459" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="173.228" y="16.253" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K" x="172.085" y="18.926" smashed="yes" rot="R90">
-<attribute name="NAME" x="172.339" y="21.974" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="172.847" y="20.196" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="173.99" y="18.291" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K" x="169.548" y="18.669" smashed="yes">
-<attribute name="NAME" x="170.818" y="17.78" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="169.802" y="17.78" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="168.913" y="16.764" size="1.27" layer="27"/>
 </element>
 <element name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="125.6" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="124.33" y="83.693" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="124.203" y="85.217" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="123.695" y="84.455" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="133.734" y="81.28" smashed="yes">
-<attribute name="NAME" x="133.734" y="79.883" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="135.385" y="81.915" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="133.099" y="79.375" size="1.27" layer="27"/>
 </element>
 <element name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="146.304" y="74.679" smashed="yes" rot="R180">
-<attribute name="NAME" x="147.574" y="74.044" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="147.701" y="76.076" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="146.939" y="76.584" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="143.888" y="63.5" smashed="yes" rot="R180">
@@ -3901,7 +3901,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="144.523" y="65.405" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="128.016" y="63.497" smashed="yes">
-<attribute name="NAME" x="127.1778" y="62.8112" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="126.5428" y="62.1762" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="127.381" y="61.592" size="1.27" layer="27"/>
 </element>
 <element name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" value="10u" x="146.301" y="78.867" smashed="yes" rot="R180">
@@ -3917,11 +3917,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="125.349" y="74.038" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="L3" library="Zero_V1.0" package="C0603" value="10uH 100MHz" x="124.968" y="77.975" smashed="yes" rot="R270">
-<attribute name="NAME" x="126.619" y="78.483" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="126.746" y="78.102" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="124.968" y="76.705" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="C17" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="122.428" y="77.727" smashed="yes" rot="R90">
-<attribute name="NAME" x="121.793" y="77.727" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="121.666" y="78.235" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="124.333" y="77.092" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="L4" library="Zero_V1.0" package="C0603" value="10uH 100MHz" x="128.14" y="79.248" smashed="yes" rot="R270">
@@ -3929,31 +3929,31 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="128.14" y="77.978" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="C19" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4u7" x="123.447" y="80.772" smashed="yes" rot="R270">
-<attribute name="NAME" x="122.685" y="78.486" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="122.685" y="82.55" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="121.542" y="81.407" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C20" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="128.016" y="81.277" smashed="yes" rot="R180">
-<attribute name="NAME" x="128.016" y="82.547" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="129.667" y="81.912" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="128.651" y="83.182" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C26" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="122.936" y="72.133" smashed="yes" rot="R180">
-<attribute name="NAME" x="124.206" y="71.371" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="122.047" y="72.768" size="0.4064" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="123.571" y="74.038" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C27" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2u 0.1-10ohm ESR" x="125.476" y="74.673" smashed="yes" rot="R90">
-<attribute name="NAME" x="126.492" y="76.324" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="126.873" y="73.149" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="127.381" y="74.038" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1R" x="125.473" y="80.772" smashed="yes" rot="R270">
-<attribute name="NAME" x="126.235" y="81.153" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="126.235" y="79.248" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="123.568" y="81.407" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C21" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="125.987" y="69.723" smashed="yes" rot="R270">
-<attribute name="NAME" x="126.876" y="72.009" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="126.622" y="67.945" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="124.082" y="70.358" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C22" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="133.604" y="61.852" smashed="yes" rot="R180">
-<attribute name="NAME" x="135.001" y="63.249" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="133.604" y="60.963" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="134.239" y="63.757" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="146.304" y="69.339" smashed="yes" rot="R90">
@@ -3961,11 +3961,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="148.209" y="68.704" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C24" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="138.554" y="81.28" smashed="yes">
-<attribute name="NAME" x="138.554" y="81.915" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="139.062" y="82.042" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="137.919" y="79.375" size="1.27" layer="27"/>
 </element>
 <element name="C25" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" value="10u" x="122.936" y="70.107" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.285" y="71.123" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="123.317" y="69.091" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="123.571" y="72.012" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="IC5" library="misc" package="SO14" value="74HC125" x="154.718" y="25.149" smashed="yes" rot="R90">
@@ -3977,15 +3977,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="165.7" y="88.521" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C36" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2u" x="154.337" y="19.307" smashed="yes">
-<attribute name="NAME" x="156.623" y="18.545" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="152.686" y="18.672" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="153.702" y="17.402" size="1.27" layer="27"/>
 </element>
 <element name="C37" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="164.43" y="91.059" smashed="yes" rot="R180">
-<attribute name="NAME" x="166.081" y="91.694" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="166.208" y="91.694" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="165.065" y="92.964" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="ERASE" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="138.557" y="84.452" smashed="yes" rot="R90">
-<attribute name="NAME" x="139.954" y="87.119" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="141.351" y="87.119" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="141.097" y="87.373" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="RESET" library="misc" package="EVQQ2" value="" x="154.94" y="89.278" smashed="yes" rot="R180">
@@ -3997,7 +3997,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="109.08" y="69.435" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K" x="147.317" y="86.614" smashed="yes" rot="R180">
-<attribute name="NAME" x="147.444" y="88.011" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="148.714" y="85.852" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="147.952" y="88.519" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C28" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10n" x="147.323" y="88.646" smashed="yes" rot="R180">
@@ -4009,11 +4009,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="129.54" y="83.817" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C30" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10p" x="135.004" y="84.455" smashed="yes" rot="R270">
-<attribute name="NAME" x="133.734" y="85.598" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="134.369" y="86.106" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="133.099" y="85.09" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="X1" library="misc" package="5.0X3.2_KX-9A" value="12MHz" x="131.318" y="84.198" smashed="yes" rot="R180">
-<attribute name="NAME" x="132.583" y="86.203" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="130.932" y="86.203" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="133.958" y="87.098" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="27K" x="107.315" y="96.142" smashed="yes" rot="R90">
@@ -4025,31 +4025,31 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="107.439" y="96.774" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="111.376" y="96.139" smashed="yes" rot="R90">
-<attribute name="NAME" x="110.614" y="94.742" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="112.773" y="96.647" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="113.281" y="95.504" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="47K" x="111.382" y="128.27" smashed="yes" rot="R180">
-<attribute name="NAME" x="109.223" y="128.651" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="113.033" y="129.032" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="112.017" y="130.175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4K7" x="114.811" y="125.984" smashed="yes" rot="R180">
-<attribute name="NAME" x="115.573" y="127.381" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="116.462" y="126.492" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="115.446" y="127.889" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10n" x="111.763" y="125.984" smashed="yes" rot="R180">
-<attribute name="NAME" x="110.493" y="126.746" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="110.493" y="124.587" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="112.398" y="127.889" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K" x="113.916" y="69.596" smashed="yes" rot="R90">
-<attribute name="NAME" x="113.154" y="68.961" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="113.535" y="71.247" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="115.821" y="68.961" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2u" x="111.379" y="70.609" smashed="yes" rot="R180">
-<attribute name="NAME" x="112.141" y="69.847" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="112.268" y="72.006" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="112.014" y="72.514" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="USB" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="147.19" y="104.267" smashed="yes" rot="R180">
-<attribute name="NAME" x="147.825" y="106.299" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="147.444" y="106.299" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="144.65" y="105.537" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="2K2" x="147.19" y="100.457" smashed="yes" rot="R270">
@@ -4057,7 +4057,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="145.285" y="101.092" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="5V" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="151.254" y="104.267" smashed="yes" rot="R180">
-<attribute name="NAME" x="151.889" y="106.299" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="151.889" y="106.299" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="148.714" y="105.537" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" value="2K2" x="151.254" y="100.457" smashed="yes" rot="R270">
@@ -4086,13 +4086,13 @@ design rules under a new name.</description>
 <element name="SG1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="F/CM12P" package3d_urn="urn:adsk.eagle:package:5265/1" value="F/CM12P" x="158.372" y="73.66" smashed="yes">
 <attribute name="MF" value="" x="158.372" y="66.04" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="158.372" y="66.04" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="161.293" y="71.628" size="0.6096" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="161.547" y="71.374" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="158.372" y="66.04" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="158.372" y="66.04" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="153.927" y="62.23" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R72" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K" x="154.051" y="83.696" smashed="yes" rot="R90">
-<attribute name="NAME" x="153.162" y="82.299" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="153.289" y="83.569" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="155.321" y="83.061" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" value="" x="168.018" y="102.11" smashed="yes" rot="R270">
@@ -4104,7 +4104,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="164.843" y="74.17" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R73" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="47R" x="165.351" y="67.31" smashed="yes" rot="R270">
-<attribute name="NAME" x="166.113" y="67.945" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="163.954" y="68.072" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="163.446" y="67.945" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
@@ -5102,8 +5102,8 @@ design rules under a new name.</description>
 <via x="121.92" y="85.09" extent="1-16" drill="0.35"/>
 <via x="119.38" y="87.63" extent="1-16" drill="0.35"/>
 <via x="116.84" y="90.17" extent="1-16" drill="0.35"/>
-<via x="151.13" y="97.79" extent="1-16" drill="0.35"/>
-<via x="148.59" y="97.79" extent="1-16" drill="0.35"/>
+<via x="150.495" y="97.155" extent="1-16" drill="0.35"/>
+<via x="147.955" y="97.155" extent="1-16" drill="0.35"/>
 <wire x1="140.97" y1="114.3" x2="140.045" y2="115.225" width="0.2032" layer="1"/>
 <wire x1="138.811" y1="115.225" x2="140.045" y2="115.225" width="0.2032" layer="1"/>
 <via x="140.97" y="114.3" extent="1-16" drill="0.35"/>
