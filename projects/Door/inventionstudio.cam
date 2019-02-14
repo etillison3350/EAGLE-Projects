@@ -4,7 +4,7 @@
         "name": "Ethan Tillison"
     },
     "description": {
-        "EN": "EAGLE default 2 layer CAM job."
+        "EN": "Two layer CAM job for Invention Studio (LFPK ProtoMat S63), no soldermask/silkscreen\n"
     },
     "output_type": "zip",
     "outputs": [
