@@ -16886,6 +16886,8 @@ Philips Semiconductors, SOT363.pdf</description>
 <wire x1="-2.205" y1="3.35" x2="2.205" y2="3.35" width="0.127" layer="51"/>
 <wire x1="2.205" y1="3.35" x2="2.205" y2="2.05" width="0.127" layer="51"/>
 <wire x1="-2.205" y1="3.35" x2="-2.205" y2="2.05" width="0.127" layer="51"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="SO14" urn="urn:adsk.eagle:footprint:3825/1">
 <description>&lt;b&gt;14-Lead Narrow-Body SOIC&lt;/b&gt; (SO-14)&lt;p&gt;
@@ -28405,7 +28407,7 @@ TR5, Wickmann</description>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180R"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="USB" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="USB_L" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2K2"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="5V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
@@ -28419,7 +28421,7 @@ TR5, Wickmann</description>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47K"/>
 <part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X1" library="SmartPrj" deviceset="PN61729" device="" value="USB-B_TH"/>
+<part name="USB" library="SmartPrj" deviceset="PN61729" device="" value="USB-B_TH"/>
 <part name="ESP8266" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ESP-12" device="" package3d_urn="urn:adsk.eagle:package:6240951/1"/>
 <part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
 <part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2K2"/>
@@ -28887,7 +28889,7 @@ TR5, Wickmann</description>
 <instance part="GND5" gate="1" x="17.78" y="7.62" smashed="yes">
 <attribute name="VALUE" x="15.24" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="USB" gate="G$1" x="-7.62" y="0" smashed="yes" rot="R90">
+<instance part="USB_L" gate="G$1" x="-7.62" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="-3.048" y="3.556" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-3.048" y="5.715" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -28936,7 +28938,7 @@ TR5, Wickmann</description>
 <instance part="GND8" gate="1" x="109.22" y="43.18" smashed="yes">
 <attribute name="VALUE" x="106.68" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="G$1" x="55.88" y="20.32" smashed="yes" rot="MR0">
+<instance part="USB" gate="G$1" x="55.88" y="20.32" smashed="yes" rot="MR0">
 <attribute name="NAME" x="55.88" y="29.21" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="55.88" y="33.02" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -30742,14 +30744,14 @@ TR5, Wickmann</description>
 <wire x1="66.04" y1="5.08" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-10.16" x2="76.2" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="76.2" y="-10.16"/>
-<pinref part="X1" gate="G$1" pin="4"/>
+<pinref part="USB" gate="G$1" pin="4"/>
 <wire x1="58.42" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="17.78" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
 <junction x="66.04" y="5.08"/>
-<pinref part="X1" gate="G$1" pin="P$2"/>
+<pinref part="USB" gate="G$1" pin="P$2"/>
 <wire x1="50.8" y1="10.16" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="5.08" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="P$1"/>
+<pinref part="USB" gate="G$1" pin="P$1"/>
 <wire x1="53.34" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="10.16" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
 <junction x="53.34" y="5.08"/>
@@ -31953,7 +31955,7 @@ TR5, Wickmann</description>
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="USB" gate="G$1" pin="A"/>
+<pinref part="USB_L" gate="G$1" pin="A"/>
 <wire x1="-20.32" y1="0" x2="-10.16" y2="0" width="0.1524" layer="91"/>
 <label x="-20.32" y="0" size="1.778" layer="95"/>
 </segment>
@@ -31964,7 +31966,7 @@ TR5, Wickmann</description>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 <junction x="76.2" y="25.4"/>
-<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="USB" gate="G$1" pin="1"/>
 <label x="60.96" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -31984,7 +31986,7 @@ TR5, Wickmann</description>
 </net>
 <net name="USB_LED" class="0">
 <segment>
-<pinref part="USB" gate="G$1" pin="C"/>
+<pinref part="USB_L" gate="G$1" pin="C"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.1524" layer="91"/>
 </segment>
@@ -32005,7 +32007,7 @@ TR5, Wickmann</description>
 <wire x1="111.76" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
 <junction x="111.76" y="20.32"/>
 <label x="121.92" y="20.32" size="1.778" layer="95"/>
-<pinref part="X1" gate="G$1" pin="3"/>
+<pinref part="USB" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="DDP/PB11"/>
@@ -32022,7 +32024,7 @@ TR5, Wickmann</description>
 <wire x1="106.68" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <junction x="106.68" y="22.86"/>
 <label x="121.92" y="22.86" size="1.778" layer="95"/>
-<pinref part="X1" gate="G$1" pin="2"/>
+<pinref part="USB" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="DDM/PB10"/>
@@ -32132,14 +32134,14 @@ TR5, Wickmann</description>
 <wire x1="434.34" y1="2.54" x2="439.42" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESP_URDX" class="0">
+<net name="ESP_RXD" class="0">
 <segment>
 <pinref part="ESP8266" gate="G$1" pin="TXD"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="482.6" y1="25.4" x2="477.52" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESP_UTDX" class="0">
+<net name="ESP_TXD" class="0">
 <segment>
 <pinref part="ESP8266" gate="G$1" pin="RXD"/>
 <pinref part="R24" gate="G$1" pin="2"/>
@@ -33643,7 +33645,7 @@ TR5, Wickmann</description>
 <junction x="251.46" y="109.22"/>
 </segment>
 </net>
-<net name="N$55" class="0">
+<net name="IDEK" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="C26" gate="G$1" pin="1"/>
@@ -34016,7 +34018,7 @@ TR5, Wickmann</description>
 <pinref part="ESP8266" gate="G$1" pin="GPIO13"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="SG_TST_XY" class="0">
 <segment>
 <wire x1="1816.1" y1="22.86" x2="1811.02" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC12" gate="D" pin="I0"/>
@@ -34027,7 +34029,7 @@ TR5, Wickmann</description>
 <wire x1="1846.58" y1="73.66" x2="1841.5" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="SG_TST_ZE" class="0">
 <segment>
 <pinref part="IC12" gate="D" pin="I1"/>
 <wire x1="1813.56" y1="17.78" x2="1816.1" y2="17.78" width="0.1524" layer="91"/>
@@ -34038,21 +34040,21 @@ TR5, Wickmann</description>
 <wire x1="1844.04" y1="38.1" x2="1841.5" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="E1_FUSED" class="0">
 <segment>
 <pinref part="J2" gate="-2" pin="1"/>
 <wire x1="911.86" y1="5.08" x2="914.4" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="F2" gate="F" pin="2"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="E2_FUSED" class="0">
 <segment>
 <pinref part="J2" gate="-4" pin="1"/>
 <wire x1="914.4" y1="-5.08" x2="911.86" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="F3" gate="F" pin="2"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="AMID_Z" class="0">
 <segment>
 <pinref part="X6" gate="-1" pin="S"/>
 <wire x1="1506.22" y1="45.72" x2="1503.68" y2="45.72" width="0.1524" layer="91"/>
@@ -34061,7 +34063,7 @@ TR5, Wickmann</description>
 <wire x1="1503.68" y1="43.18" x2="1513.84" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="BMID_Z" class="0">
 <segment>
 <pinref part="X6" gate="-4" pin="S"/>
 <wire x1="1506.22" y1="30.48" x2="1503.68" y2="30.48" width="0.1524" layer="91"/>
@@ -34070,7 +34072,7 @@ TR5, Wickmann</description>
 <wire x1="1503.68" y1="38.1" x2="1513.84" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="SG_TST_E1Z" class="0">
 <segment>
 <pinref part="IC12" gate="B" pin="O"/>
 <pinref part="IC12" gate="C" pin="I1"/>

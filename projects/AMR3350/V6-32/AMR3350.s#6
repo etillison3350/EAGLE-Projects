@@ -33573,10 +33573,9 @@ TR5, Wickmann</description>
 <pinref part="C35" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="-33.02" x2="332.74" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="332.74" y="-30.48"/>
-<pinref part="RESET" gate="G$1" pin="P"/>
-<wire x1="332.74" y1="-30.48" x2="332.74" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="-27.94" x2="335.28" y2="-27.94" width="0.1524" layer="91"/>
 <label x="297.18" y="-30.48" size="1.778" layer="95"/>
+<pinref part="RESET" gate="G$1" pin="P1"/>
+<wire x1="332.74" y1="-30.48" x2="335.28" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDDOUT" class="0">
