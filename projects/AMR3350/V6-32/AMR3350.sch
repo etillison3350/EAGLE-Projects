@@ -16855,39 +16855,28 @@ Philips Semiconductors, SOT363.pdf</description>
 <rectangle x1="-0.15" y1="0.6" x2="0.15" y2="1.1" layer="51"/>
 <rectangle x1="-0.8" y1="0.6" x2="-0.5" y2="1.1" layer="51"/>
 </package>
-<package name="SOT-669">
-<description>Nexperia SOT669 (plastic, single-ended surface-mounted package; 4 terminals)</description>
-<smd name="2" x="-0.635" y="-2.725" dx="0.7" dy="1.15" layer="1"/>
-<smd name="1" x="-1.905" y="-2.725" dx="0.7" dy="1.15" layer="1"/>
-<smd name="3" x="0.635" y="-2.725" dx="0.7" dy="1.15" layer="1"/>
-<smd name="4" x="1.905" y="-2.725" dx="0.7" dy="1.15" layer="1"/>
-<smd name="EXP" x="0" y="0.45" dx="4.2" dy="3.1" layer="1" cream="no"/>
-<smd name="MB" x="0" y="2.75" dx="4.7" dy="1.5" layer="1" cream="no"/>
-<rectangle x1="1.575" y1="2.55" x2="2.175" y2="3.45" layer="31"/>
-<rectangle x1="-2.175" y1="2.55" x2="-1.575" y2="3.45" layer="31"/>
-<rectangle x1="-0.925" y1="2.55" x2="-0.325" y2="3.45" layer="31"/>
-<rectangle x1="0.325" y1="2.55" x2="0.925" y2="3.45" layer="31"/>
-<rectangle x1="-1.6" y1="-0.85" x2="-0.7" y2="-0.25" layer="31"/>
-<rectangle x1="-0.45" y1="-0.85" x2="0.45" y2="-0.25" layer="31"/>
-<rectangle x1="0.7" y1="-0.85" x2="1.6" y2="-0.25" layer="31"/>
-<rectangle x1="-1.6" y1="0" x2="-0.7" y2="0.6" layer="31"/>
-<rectangle x1="-1.6" y1="0.85" x2="-0.7" y2="1.45" layer="31"/>
-<rectangle x1="-0.45" y1="0.85" x2="0.45" y2="1.45" layer="31"/>
-<rectangle x1="0.7" y1="0.85" x2="1.6" y2="1.45" layer="31"/>
-<rectangle x1="-0.45" y1="0" x2="0.45" y2="0.6" layer="31"/>
-<rectangle x1="0.7" y1="0" x2="1.6" y2="0.6" layer="31"/>
-<wire x1="-2.5" y1="-2.05" x2="-2.5" y2="2.05" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.05" x2="-2.205" y2="2.05" width="0.127" layer="21"/>
-<wire x1="-2.205" y1="2.05" x2="2.205" y2="2.05" width="0.127" layer="21"/>
-<wire x1="2.205" y1="2.05" x2="2.5" y2="2.05" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.05" x2="2.5" y2="-2.05" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.05" x2="-2.5" y2="-2.05" width="0.127" layer="21"/>
-<circle x="-1.905" y="0" radius="0.25" width="0.127" layer="51"/>
-<wire x1="-2.205" y1="3.35" x2="2.205" y2="3.35" width="0.127" layer="51"/>
-<wire x1="2.205" y1="3.35" x2="2.205" y2="2.05" width="0.127" layer="51"/>
-<wire x1="-2.205" y1="3.35" x2="-2.205" y2="2.05" width="0.127" layer="51"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<package name="3X3DFN-EP">
+<smd name="3" x="0.325" y="-1.4" dx="0.35" dy="0.5" layer="1"/>
+<smd name="2" x="-0.325" y="-1.4" dx="0.35" dy="0.5" layer="1"/>
+<smd name="1" x="-0.975" y="-1.4" dx="0.35" dy="0.5" layer="1"/>
+<smd name="4" x="0.975" y="-1.4" dx="0.35" dy="0.5" layer="1"/>
+<smd name="PAD" x="0" y="0.36" dx="2.45" dy="1.98" layer="1"/>
+<smd name="8" x="-0.975" y="1.5" dx="0.4" dy="0.3" layer="1"/>
+<smd name="7" x="-0.325" y="1.5" dx="0.4" dy="0.3" layer="1"/>
+<smd name="6" x="0.325" y="1.5" dx="0.4" dy="0.3" layer="1"/>
+<smd name="5" x="0.975" y="1.5" dx="0.4" dy="0.3" layer="1"/>
+<smd name="E2" x="1.415" y="0" dx="0.38" dy="0.43" layer="1"/>
+<smd name="E1" x="-1.415" y="0" dx="0.38" dy="0.43" layer="1"/>
+<wire x1="-1.3" y1="1.5" x2="-1.5" y2="1.3" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.5" y1="-1.3" x2="-1.3" y2="-1.5" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.5" y1="-1.3" x2="-1.5" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.3" x2="-1.5" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.4" x2="-1.5" y2="0.4" width="0.127" layer="51"/>
+<wire x1="1.3" y1="-1.5" x2="1.5" y2="-1.3" width="0.127" layer="21" curve="90"/>
+<wire x1="1.5" y1="1.3" x2="1.3" y2="1.5" width="0.127" layer="21" curve="90"/>
+<wire x1="1.5" y1="1.3" x2="1.5" y2="0.4" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.3" x2="1.5" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.4" x2="1.5" y2="-0.4" width="0.127" layer="51"/>
 </package>
 <package name="SO14" urn="urn:adsk.eagle:footprint:3825/1">
 <description>&lt;b&gt;14-Lead Narrow-Body SOIC&lt;/b&gt; (SO-14)&lt;p&gt;
@@ -17849,15 +17838,14 @@ Source: http://www.farnell.com/datasheets/716597.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUK9Y53-100B" prefix="Q">
-<description>N-channel TrenchMOS logic level FET</description>
+<deviceset name="AON7524" prefix="Q">
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT-669">
+<device name="" package="3X3DFN-EP">
 <connects>
-<connect gate="G$1" pin="D" pad="EXP MB"/>
+<connect gate="G$1" pin="D" pad="5 6 7 8 E1 E2 PAD"/>
 <connect gate="G$1" pin="G" pad="4"/>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
@@ -28450,7 +28438,7 @@ TR5, Wickmann</description>
 <part name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220R"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C40" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2K2"/>
+<part name="C40" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2u"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
@@ -28491,8 +28479,8 @@ TR5, Wickmann</description>
 <part name="Z_STOP" library="con-other" deviceset="KK-254-3" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="misc" deviceset="NX138BKS" device=""/>
-<part name="Q3" library="misc" deviceset="BUK9Y53-100B" device=""/>
-<part name="Q4" library="misc" deviceset="BUK9Y53-100B" device=""/>
+<part name="Q3" library="misc" deviceset="AON7524" device=""/>
+<part name="Q4" library="misc" deviceset="AON7524" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="EXT2" library="con-other" deviceset="KK-254-2" device=""/>
