@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -5133,12 +5133,11 @@ design rules under a new name.</description>
 <via x="158.75" y="10.6742" extent="1-16" drill="0.4"/>
 <wire x1="158.1078" y1="56.88564375" x2="157.575" y2="56.35284375" width="0.4064" layer="16"/>
 <wire x1="157.575" y1="56.35284375" x2="157.575" y2="55.88" width="0.4064" layer="16"/>
-<wire x1="139.365" y1="63.718" x2="139.365" y2="66.7177125" width="0.2032" layer="1"/>
 <wire x1="143.2252125" y1="64.722" x2="141.3607125" y2="64.722" width="0.2032" layer="1"/>
-<wire x1="139.365" y1="66.7177125" x2="139.3455875" y2="66.737125" width="0.2032" layer="1"/>
 <via x="139.3455875" y="66.737125" extent="1-16" drill="0.4"/>
-<wire x1="139.3455875" y1="66.737125" x2="141.3607125" y2="64.722" width="0.2032" layer="1"/>
+<wire x1="139.3455875" y1="66.737125" x2="139.87135625" y2="66.21135625" width="0.2032" layer="1"/>
 <via x="139.6636375" y="71.9835" extent="1-16" drill="0.4"/>
+<wire x1="139.87135625" y1="66.21135625" x2="141.3607125" y2="64.722" width="0.2032" layer="1"/>
 <wire x1="139.6636375" y1="71.9835" x2="141.0541375" y2="70.593" width="0.2032" layer="1"/>
 <wire x1="141.0541375" y1="70.593" x2="143.765" y2="70.593" width="0.2032" layer="1"/>
 <wire x1="111.376" y1="95.289" x2="112.20993125" y2="95.289" width="0.2032" layer="1"/>
@@ -5248,6 +5247,8 @@ design rules under a new name.</description>
 <wire x1="141.5978" y1="56.896" x2="141.065" y2="56.3632" width="0.508" layer="16"/>
 <wire x1="141.065" y1="56.3632" x2="141.065" y2="56.3382" width="0.508" layer="16"/>
 <wire x1="140.049" y1="56.984" x2="141.5098" y2="56.984" width="0.3048" layer="1"/>
+<wire x1="139.365" y1="63.718" x2="139.365" y2="66.7177125" width="0.3048" layer="1"/>
+<wire x1="139.365" y1="66.7177125" x2="139.3455875" y2="66.737125" width="0.3048" layer="1"/>
 </signal>
 <signal name="X_EN">
 <contactref element="IC7" pad="2"/>
