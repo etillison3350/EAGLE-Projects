@@ -1814,20 +1814,20 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="1.3" y1="-1.3" x2="-1.3" y2="-1.3" width="0.127" layer="51"/>
 <wire x1="-1.3" y1="-1.3" x2="-1.3" y2="1.3" width="0.127" layer="51"/>
 </package>
-<package name="47571-001">
-<smd name="P$1" x="0.55" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="P$2" x="1.65" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="P$3" x="2.75" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="P$4" x="3.85" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="P$5" x="-0.55" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="P$6" x="-1.65" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="P$7" x="-2.75" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="P$8" x="-3.85" y="0" dx="0.7" dy="1" layer="1"/>
-<smd name="P$9" x="5.475" y="-1.49" dx="1.2" dy="1.45" layer="1" rot="R90"/>
-<smd name="P$10" x="5.7" y="-2.64" dx="0.7" dy="1" layer="1" rot="R90"/>
-<smd name="P$11" x="5.5" y="-3.79" dx="0.9" dy="1.4" layer="1" rot="R90"/>
-<smd name="P$12" x="-4.925" y="-1.05" dx="1.2" dy="1.15" layer="1" rot="R270"/>
-<smd name="P$13" x="-4.925" y="-3.64" dx="1.2" dy="1.15" layer="1" rot="R270"/>
+<package name="MOLEX-47571">
+<smd name="4" x="0.55" y="0" dx="0.7" dy="1" layer="1"/>
+<smd name="3" x="1.65" y="0" dx="0.7" dy="1" layer="1"/>
+<smd name="2" x="2.75" y="0" dx="0.7" dy="1" layer="1"/>
+<smd name="1" x="3.85" y="0" dx="0.7" dy="1" layer="1"/>
+<smd name="5" x="-0.55" y="0" dx="0.7" dy="1" layer="1"/>
+<smd name="6" x="-1.65" y="0" dx="0.7" dy="1" layer="1"/>
+<smd name="7" x="-2.75" y="0" dx="0.7" dy="1" layer="1"/>
+<smd name="8" x="-3.85" y="0" dx="0.7" dy="1" layer="1"/>
+<smd name="G3" x="5.475" y="-1.49" dx="1.2" dy="1.45" layer="1" rot="R90"/>
+<smd name="G4" x="5.7" y="-2.64" dx="0.7" dy="1" layer="1" rot="R90"/>
+<smd name="G5" x="5.5" y="-3.79" dx="0.9" dy="1.4" layer="1" rot="R90"/>
+<smd name="G1" x="-4.925" y="-1.05" dx="1.2" dy="1.15" layer="1" rot="R270"/>
+<smd name="G2" x="-4.925" y="-3.64" dx="1.2" dy="1.15" layer="1" rot="R270"/>
 <wire x1="-5.4" y1="1.31" x2="6" y2="1.31" width="0.127" layer="21"/>
 <wire x1="-5.4" y1="-4.14" x2="6" y2="-4.14" width="0.127" layer="21"/>
 <wire x1="-5.4" y1="1.31" x2="-5.4" y2="-4.14" width="0.127" layer="21"/>
@@ -2900,7 +2900,19 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="47571-001">
+<device name="-47571-001" package="MOLEX-47571">
+<connects>
+<connect gate="G$1" pin="CARD_DETECT" pad="G5"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="DAT3" pad="2"/>
+<connect gate="G$1" pin="GND" pad="G1 G2 G3"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

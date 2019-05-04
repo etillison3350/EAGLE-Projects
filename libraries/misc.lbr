@@ -1846,6 +1846,25 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <text x="-6" y="-4.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="8" y="-4.5" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
+<package name="PTS647">
+<smd name="A1" x="-2.625" y="1.5" dx="1.55" dy="1" layer="1"/>
+<smd name="A2" x="2.625" y="1.5" dx="1.55" dy="1" layer="1"/>
+<smd name="B2" x="2.625" y="-1.5" dx="1.55" dy="1" layer="1"/>
+<smd name="B1" x="-2.625" y="-1.5" dx="1.55" dy="1" layer="1"/>
+<wire x1="-2.25" y1="2.25" x2="2.25" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-2.25" x2="-2.25" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="2.2" width="0.127" layer="21"/>
+<wire x1="2.25" y1="2.25" x2="2.25" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-2.25" x2="2.25" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-0.8" x2="2.25" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-0.8" x2="-2.25" y2="0.8" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.4" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="2.2" x2="-2.25" y2="0.8" width="0.127" layer="51"/>
+<wire x1="2.25" y1="2.2" x2="2.25" y2="0.8" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-2.2" x2="2.25" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-2.2" x2="-2.25" y2="-0.8" width="0.127" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT223" urn="urn:adsk.eagle:package:28541/2" type="model">
@@ -3175,6 +3194,24 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <connects>
 <connect gate="G$1" pin="GND" pad="GND1 GND2"/>
 <connect gate="G$1" pin="SIGNAL" pad="SIG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTS647" prefix="S">
+<gates>
+<gate name="G$1" symbol="TS2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PTS647">
+<connects>
+<connect gate="G$1" pin="P" pad="A1"/>
+<connect gate="G$1" pin="P1" pad="A2"/>
+<connect gate="G$1" pin="S" pad="B1"/>
+<connect gate="G$1" pin="S1" pad="B2"/>
 </connects>
 <technologies>
 <technology name=""/>

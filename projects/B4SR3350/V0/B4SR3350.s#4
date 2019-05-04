@@ -33916,11 +33916,6 @@ part number 2062-2P from STA</description>
 <pinref part="IC3" gate="G$1" pin="PC6"/>
 <label x="172.72" y="-7.62" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="CHIP_EN"/>
-<wire x1="474.98" y1="157.48" x2="502.92" y2="157.48" width="0.1524" layer="91"/>
-<label x="492.76" y="157.48" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SPCK" class="0">
 <segment>
@@ -34694,14 +34689,14 @@ part number 2062-2P from STA</description>
 </net>
 <net name="X_DIR" class="0">
 <segment>
+<wire x1="193.04" y1="-45.72" x2="172.72" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="PA7/XIN32/PGMNVALID"/>
+<label x="172.72" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
 <wire x1="1546.86" y1="-15.24" x2="1529.08" y2="-15.24" width="0.1524" layer="91"/>
 <label x="1529.08" y="-15.24" size="1.778" layer="95"/>
 <pinref part="IC9" gate="G$1" pin="REFR_DIR"/>
-</segment>
-<segment>
-<wire x1="193.04" y1="-20.32" x2="172.72" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="PA25/PGMD13"/>
-<label x="172.72" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENN" class="0">
@@ -34779,14 +34774,14 @@ part number 2062-2P from STA</description>
 </net>
 <net name="Y_DIR" class="0">
 <segment>
+<wire x1="193.04" y1="-20.32" x2="172.72" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="PA25/PGMD13"/>
+<label x="172.72" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
 <wire x1="1673.86" y1="-15.24" x2="1656.08" y2="-15.24" width="0.1524" layer="91"/>
 <label x="1656.08" y="-15.24" size="1.778" layer="95"/>
 <pinref part="IC10" gate="G$1" pin="REFR_DIR"/>
-</segment>
-<segment>
-<wire x1="193.04" y1="-45.72" x2="172.72" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="PA7/XIN32/PGMNVALID"/>
-<label x="172.72" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Y_STEP" class="0">
@@ -35106,62 +35101,62 @@ part number 2062-2P from STA</description>
 </net>
 <net name="SG_TST_X" class="0">
 <segment>
+<wire x1="1927.86" y1="48.26" x2="1950.72" y2="48.26" width="0.1524" layer="91"/>
+<label x="1927.86" y="48.26" size="1.778" layer="95"/>
+<pinref part="IC12" gate="-1" pin="I1"/>
+</segment>
+<segment>
 <wire x1="1546.86" y1="20.32" x2="1529.08" y2="20.32" width="0.1524" layer="91"/>
 <label x="1529.08" y="20.32" size="1.778" layer="95"/>
 <pinref part="IC9" gate="G$1" pin="SWP_DIAG1"/>
 </segment>
-<segment>
-<wire x1="1927.86" y1="20.32" x2="1950.72" y2="20.32" width="0.1524" layer="91"/>
-<label x="1927.86" y="20.32" size="1.778" layer="95"/>
-<pinref part="IC12" gate="-2" pin="I3"/>
-</segment>
 </net>
 <net name="SG_TST_Y" class="0">
+<segment>
+<wire x1="1950.72" y1="43.18" x2="1927.86" y2="43.18" width="0.1524" layer="91"/>
+<label x="1927.86" y="43.18" size="1.778" layer="95"/>
+<pinref part="IC12" gate="-1" pin="I2"/>
+</segment>
 <segment>
 <wire x1="1673.86" y1="20.32" x2="1656.08" y2="20.32" width="0.1524" layer="91"/>
 <label x="1656.08" y="20.32" size="1.778" layer="95"/>
 <pinref part="IC10" gate="G$1" pin="SWP_DIAG1"/>
 </segment>
-<segment>
-<wire x1="1950.72" y1="22.86" x2="1927.86" y2="22.86" width="0.1524" layer="91"/>
-<label x="1927.86" y="22.86" size="1.778" layer="95"/>
-<pinref part="IC12" gate="-2" pin="I2"/>
-</segment>
 </net>
 <net name="SG_TST_Z" class="0">
-<segment>
-<wire x1="1798.32" y1="20.32" x2="1780.54" y2="20.32" width="0.1524" layer="91"/>
-<label x="1780.54" y="20.32" size="1.778" layer="95"/>
-<pinref part="IC7" gate="G$1" pin="SWP_DIAG1"/>
-</segment>
-<segment>
-<wire x1="1950.72" y1="27.94" x2="1927.86" y2="27.94" width="0.1524" layer="91"/>
-<label x="1927.86" y="27.94" size="1.778" layer="95"/>
-<pinref part="IC12" gate="-2" pin="I1"/>
-</segment>
-</net>
-<net name="SG_TST_E1" class="0">
-<segment>
-<wire x1="1163.32" y1="20.32" x2="1145.54" y2="20.32" width="0.1524" layer="91"/>
-<label x="1145.54" y="20.32" size="1.778" layer="95"/>
-<pinref part="IC13" gate="G$1" pin="SWP_DIAG1"/>
-</segment>
 <segment>
 <wire x1="1950.72" y1="40.64" x2="1927.86" y2="40.64" width="0.1524" layer="91"/>
 <label x="1927.86" y="40.64" size="1.778" layer="95"/>
 <pinref part="IC12" gate="-1" pin="I3"/>
 </segment>
+<segment>
+<wire x1="1798.32" y1="20.32" x2="1780.54" y2="20.32" width="0.1524" layer="91"/>
+<label x="1780.54" y="20.32" size="1.778" layer="95"/>
+<pinref part="IC7" gate="G$1" pin="SWP_DIAG1"/>
+</segment>
+</net>
+<net name="SG_TST_E1" class="0">
+<segment>
+<wire x1="1950.72" y1="27.94" x2="1927.86" y2="27.94" width="0.1524" layer="91"/>
+<label x="1927.86" y="27.94" size="1.778" layer="95"/>
+<pinref part="IC12" gate="-2" pin="I1"/>
+</segment>
+<segment>
+<wire x1="1163.32" y1="20.32" x2="1145.54" y2="20.32" width="0.1524" layer="91"/>
+<label x="1145.54" y="20.32" size="1.778" layer="95"/>
+<pinref part="IC13" gate="G$1" pin="SWP_DIAG1"/>
+</segment>
 </net>
 <net name="SG_TST_E2" class="0">
+<segment>
+<wire x1="1950.72" y1="22.86" x2="1927.86" y2="22.86" width="0.1524" layer="91"/>
+<label x="1927.86" y="22.86" size="1.778" layer="95"/>
+<pinref part="IC12" gate="-2" pin="I2"/>
+</segment>
 <segment>
 <wire x1="1290.32" y1="20.32" x2="1272.54" y2="20.32" width="0.1524" layer="91"/>
 <label x="1272.54" y="20.32" size="1.778" layer="95"/>
 <pinref part="IC6" gate="G$1" pin="SWP_DIAG1"/>
-</segment>
-<segment>
-<wire x1="1950.72" y1="43.18" x2="1927.86" y2="43.18" width="0.1524" layer="91"/>
-<label x="1927.86" y="43.18" size="1.778" layer="95"/>
-<pinref part="IC12" gate="-1" pin="I2"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -35319,14 +35314,14 @@ part number 2062-2P from STA</description>
 </net>
 <net name="SG_TST_E3" class="0">
 <segment>
+<wire x1="1950.72" y1="20.32" x2="1927.86" y2="20.32" width="0.1524" layer="91"/>
+<label x="1927.86" y="20.32" size="1.778" layer="95"/>
+<pinref part="IC12" gate="-2" pin="I3"/>
+</segment>
+<segment>
 <wire x1="1419.86" y1="20.32" x2="1402.08" y2="20.32" width="0.1524" layer="91"/>
 <label x="1402.08" y="20.32" size="1.778" layer="95"/>
 <pinref part="IC8" gate="G$1" pin="SWP_DIAG1"/>
-</segment>
-<segment>
-<wire x1="1950.72" y1="48.26" x2="1927.86" y2="48.26" width="0.1524" layer="91"/>
-<label x="1927.86" y="48.26" size="1.778" layer="95"/>
-<pinref part="IC12" gate="-1" pin="I1"/>
 </segment>
 </net>
 <net name="E3_STEP" class="0">
