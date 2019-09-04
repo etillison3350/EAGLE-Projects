@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -33593,7 +33593,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC13" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_E3" class="0">
+<net name="A1_E1" class="0">
 <segment>
 <pinref part="MOT-E1" gate="-1" pin="S"/>
 <wire x1="1160.78" y1="40.64" x2="1140.46" y2="40.64" width="0.1524" layer="91"/>
@@ -33605,7 +33605,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC13" gate="G$1" pin="OA1"/>
 </segment>
 </net>
-<net name="A2_E3" class="0">
+<net name="A2_E1" class="0">
 <segment>
 <pinref part="MOT-E1" gate="-2" pin="S"/>
 <wire x1="1160.78" y1="35.56" x2="1140.46" y2="35.56" width="0.1524" layer="91"/>
@@ -33617,7 +33617,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC13" gate="G$1" pin="OA2"/>
 </segment>
 </net>
-<net name="B1_E3" class="0">
+<net name="B1_E1" class="0">
 <segment>
 <pinref part="C136" gate="G$1" pin="1"/>
 <wire x1="1158.24" y1="30.48" x2="1140.46" y2="30.48" width="0.1524" layer="91"/>
@@ -33630,7 +33630,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1158.24" y1="30.48" x2="1160.78" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2_E3" class="0">
+<net name="B2_E1" class="0">
 <segment>
 <pinref part="C137" gate="G$1" pin="1"/>
 <wire x1="1158.24" y1="25.4" x2="1140.46" y2="25.4" width="0.1524" layer="91"/>
@@ -33701,7 +33701,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC7" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_E4" class="0">
+<net name="A1_E2" class="0">
 <segment>
 <pinref part="MOT-E2" gate="-1" pin="S"/>
 <wire x1="1287.78" y1="40.64" x2="1267.46" y2="40.64" width="0.1524" layer="91"/>
@@ -33713,7 +33713,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC7" gate="G$1" pin="OA1"/>
 </segment>
 </net>
-<net name="A2_E4" class="0">
+<net name="A2_E2" class="0">
 <segment>
 <pinref part="MOT-E2" gate="-2" pin="S"/>
 <wire x1="1287.78" y1="35.56" x2="1267.46" y2="35.56" width="0.1524" layer="91"/>
@@ -33725,7 +33725,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC7" gate="G$1" pin="OA2"/>
 </segment>
 </net>
-<net name="B1_E4" class="0">
+<net name="B1_E2" class="0">
 <segment>
 <pinref part="C57" gate="G$1" pin="1"/>
 <wire x1="1285.24" y1="30.48" x2="1267.46" y2="30.48" width="0.1524" layer="91"/>
@@ -33738,7 +33738,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1285.24" y1="30.48" x2="1287.78" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2_E4" class="0">
+<net name="B2_E2" class="0">
 <segment>
 <pinref part="C58" gate="G$1" pin="1"/>
 <wire x1="1285.24" y1="25.4" x2="1267.46" y2="25.4" width="0.1524" layer="91"/>
@@ -33802,7 +33802,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC8" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_Z1" class="0">
+<net name="A1_Z" class="0">
 <segment>
 <wire x1="1663.7" y1="40.64" x2="1643.38" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="1643.38" y1="40.64" x2="1638.3" y2="40.64" width="0.1524" layer="91"/>
@@ -33816,7 +33816,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1663.7" y1="38.1" x2="1678.94" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A2_Z1" class="0">
+<net name="A2_Z" class="0">
 <segment>
 <wire x1="1668.78" y1="35.56" x2="1643.38" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="1643.38" y1="35.56" x2="1638.3" y2="35.56" width="0.1524" layer="91"/>
@@ -33828,7 +33828,7 @@ by exp-lbrs.ulp</description>
 <pinref part="MOT-Z1" gate="-2" pin="S"/>
 </segment>
 </net>
-<net name="B1_Z1" class="0">
+<net name="B1_Z" class="0">
 <segment>
 <pinref part="C70" gate="G$1" pin="1"/>
 <wire x1="1668.78" y1="30.48" x2="1643.38" y2="30.48" width="0.1524" layer="91"/>
@@ -33840,7 +33840,7 @@ by exp-lbrs.ulp</description>
 <pinref part="MOT-Z1" gate="-3" pin="S"/>
 </segment>
 </net>
-<net name="B2_Z1" class="0">
+<net name="B2_Z" class="0">
 <segment>
 <pinref part="C71" gate="G$1" pin="1"/>
 <wire x1="1663.7" y1="25.4" x2="1643.38" y2="25.4" width="0.1524" layer="91"/>
@@ -33898,7 +33898,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC10" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_X1" class="0">
+<net name="A1_X" class="0">
 <segment>
 <pinref part="MOT-X" gate="-1" pin="S"/>
 <wire x1="1412.24" y1="40.64" x2="1391.92" y2="40.64" width="0.1524" layer="91"/>
@@ -33910,7 +33910,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC10" gate="G$1" pin="OA1"/>
 </segment>
 </net>
-<net name="A2_X1" class="0">
+<net name="A2_X" class="0">
 <segment>
 <pinref part="MOT-X" gate="-2" pin="S"/>
 <wire x1="1412.24" y1="35.56" x2="1391.92" y2="35.56" width="0.1524" layer="91"/>
@@ -33922,7 +33922,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC10" gate="G$1" pin="OA2"/>
 </segment>
 </net>
-<net name="B1_X1" class="0">
+<net name="B1_X" class="0">
 <segment>
 <pinref part="C96" gate="G$1" pin="1"/>
 <wire x1="1409.7" y1="30.48" x2="1391.92" y2="30.48" width="0.1524" layer="91"/>
@@ -33935,7 +33935,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1409.7" y1="30.48" x2="1412.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2_X1" class="0">
+<net name="B2_X" class="0">
 <segment>
 <pinref part="C97" gate="G$1" pin="1"/>
 <wire x1="1409.7" y1="25.4" x2="1391.92" y2="25.4" width="0.1524" layer="91"/>
@@ -33999,7 +33999,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC11" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_Y1" class="0">
+<net name="A1_Y" class="0">
 <segment>
 <pinref part="MOT-Y" gate="-1" pin="S"/>
 <wire x1="1539.24" y1="40.64" x2="1518.92" y2="40.64" width="0.1524" layer="91"/>
@@ -34011,7 +34011,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC11" gate="G$1" pin="OA1"/>
 </segment>
 </net>
-<net name="A2_Y1" class="0">
+<net name="A2_Y" class="0">
 <segment>
 <pinref part="MOT-Y" gate="-2" pin="S"/>
 <wire x1="1539.24" y1="35.56" x2="1518.92" y2="35.56" width="0.1524" layer="91"/>
@@ -34023,7 +34023,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC11" gate="G$1" pin="OA2"/>
 </segment>
 </net>
-<net name="B1_Y1" class="0">
+<net name="B1_Y" class="0">
 <segment>
 <pinref part="C109" gate="G$1" pin="1"/>
 <wire x1="1536.7" y1="30.48" x2="1518.92" y2="30.48" width="0.1524" layer="91"/>
@@ -34036,7 +34036,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1536.7" y1="30.48" x2="1539.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2_Y1" class="0">
+<net name="B2_Y" class="0">
 <segment>
 <pinref part="C110" gate="G$1" pin="1"/>
 <wire x1="1536.7" y1="25.4" x2="1518.92" y2="25.4" width="0.1524" layer="91"/>
@@ -34056,7 +34056,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC11" gate="G$1" pin="AIN_IREF"/>
 </segment>
 </net>
-<net name="A_Z2" class="0">
+<net name="A_Z" class="0">
 <segment>
 <pinref part="MOT-Z2" gate="-2" pin="S"/>
 <pinref part="MOT-Z1" gate="-1" pin="S"/>
@@ -34065,7 +34065,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1666.24" y1="33.02" x2="1678.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B_Z2" class="0">
+<net name="B_Z" class="0">
 <segment>
 <pinref part="MOT-Z2" gate="-3" pin="S"/>
 <wire x1="1678.94" y1="27.94" x2="1666.24" y2="27.94" width="0.1524" layer="91"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -28377,7 +28377,7 @@ by exp-lbrs.ulp</description>
 <class number="3" name="usbvcc" width="0.1016" drill="0.1">
 <clearance class="3" value="0.15"/>
 </class>
-<class number="4" name="diff" width="0.2032" drill="0">
+<class number="4" name="diff" width="0.2" drill="0">
 </class>
 </classes>
 <parts>
