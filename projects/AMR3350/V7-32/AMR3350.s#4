@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -33831,13 +33831,15 @@ by exp-lbrs.ulp</description>
 <net name="B1_Z" class="0">
 <segment>
 <pinref part="C70" gate="G$1" pin="1"/>
-<wire x1="1668.78" y1="30.48" x2="1643.38" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="1643.38" y1="30.48" x2="1638.3" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="1643.38" y1="30.48" x2="1643.38" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="1643.38" y1="27.94" x2="1645.92" y2="27.94" width="0.1524" layer="91"/>
-<junction x="1643.38" y="30.48"/>
 <pinref part="IC8" gate="G$1" pin="OB1"/>
-<pinref part="MOT-Z1" gate="-3" pin="S"/>
+<wire x1="1643.38" y1="30.48" x2="1661.16" y2="30.48" width="0.1524" layer="91"/>
+<junction x="1643.38" y="30.48"/>
+<pinref part="MOT-Z2" gate="-4" pin="S"/>
+<wire x1="1666.24" y1="22.86" x2="1678.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="1661.16" y1="30.48" x2="1666.24" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B2_Z" class="0">
@@ -33849,9 +33851,9 @@ by exp-lbrs.ulp</description>
 <wire x1="1643.38" y1="22.86" x2="1645.92" y2="22.86" width="0.1524" layer="91"/>
 <junction x="1643.38" y="25.4"/>
 <pinref part="IC8" gate="G$1" pin="OB2"/>
-<pinref part="MOT-Z2" gate="-4" pin="S"/>
-<wire x1="1663.7" y1="25.4" x2="1666.24" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="1666.24" y1="22.86" x2="1678.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="1663.7" y1="25.4" x2="1666.24" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="MOT-Z1" gate="-3" pin="S"/>
+<wire x1="1666.24" y1="30.48" x2="1668.78" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V_X" class="0">
