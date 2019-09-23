@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -33593,7 +33593,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC13" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_E3" class="0">
+<net name="A1_E1" class="0">
 <segment>
 <pinref part="MOT-E1" gate="-1" pin="S"/>
 <wire x1="1160.78" y1="40.64" x2="1140.46" y2="40.64" width="0.1524" layer="91"/>
@@ -33605,7 +33605,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC13" gate="G$1" pin="OA1"/>
 </segment>
 </net>
-<net name="A2_E3" class="0">
+<net name="A2_E1" class="0">
 <segment>
 <pinref part="MOT-E1" gate="-2" pin="S"/>
 <wire x1="1160.78" y1="35.56" x2="1140.46" y2="35.56" width="0.1524" layer="91"/>
@@ -33617,7 +33617,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC13" gate="G$1" pin="OA2"/>
 </segment>
 </net>
-<net name="B1_E3" class="0">
+<net name="B1_E1" class="0">
 <segment>
 <pinref part="C136" gate="G$1" pin="1"/>
 <wire x1="1158.24" y1="30.48" x2="1140.46" y2="30.48" width="0.1524" layer="91"/>
@@ -33630,7 +33630,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1158.24" y1="30.48" x2="1160.78" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2_E3" class="0">
+<net name="B2_E1" class="0">
 <segment>
 <pinref part="C137" gate="G$1" pin="1"/>
 <wire x1="1158.24" y1="25.4" x2="1140.46" y2="25.4" width="0.1524" layer="91"/>
@@ -33701,7 +33701,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC7" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_E4" class="0">
+<net name="A1_E2" class="0">
 <segment>
 <pinref part="MOT-E2" gate="-1" pin="S"/>
 <wire x1="1287.78" y1="40.64" x2="1267.46" y2="40.64" width="0.1524" layer="91"/>
@@ -33713,7 +33713,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC7" gate="G$1" pin="OA1"/>
 </segment>
 </net>
-<net name="A2_E4" class="0">
+<net name="A2_E2" class="0">
 <segment>
 <pinref part="MOT-E2" gate="-2" pin="S"/>
 <wire x1="1287.78" y1="35.56" x2="1267.46" y2="35.56" width="0.1524" layer="91"/>
@@ -33725,7 +33725,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC7" gate="G$1" pin="OA2"/>
 </segment>
 </net>
-<net name="B1_E4" class="0">
+<net name="B1_E2" class="0">
 <segment>
 <pinref part="C57" gate="G$1" pin="1"/>
 <wire x1="1285.24" y1="30.48" x2="1267.46" y2="30.48" width="0.1524" layer="91"/>
@@ -33738,7 +33738,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1285.24" y1="30.48" x2="1287.78" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2_E4" class="0">
+<net name="B2_E2" class="0">
 <segment>
 <pinref part="C58" gate="G$1" pin="1"/>
 <wire x1="1285.24" y1="25.4" x2="1267.46" y2="25.4" width="0.1524" layer="91"/>
@@ -33802,7 +33802,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC8" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_Z1" class="0">
+<net name="A1_Z" class="0">
 <segment>
 <wire x1="1663.7" y1="40.64" x2="1643.38" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="1643.38" y1="40.64" x2="1638.3" y2="40.64" width="0.1524" layer="91"/>
@@ -33816,7 +33816,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1663.7" y1="38.1" x2="1678.94" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A2_Z1" class="0">
+<net name="A2_Z" class="0">
 <segment>
 <wire x1="1668.78" y1="35.56" x2="1643.38" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="1643.38" y1="35.56" x2="1638.3" y2="35.56" width="0.1524" layer="91"/>
@@ -33828,7 +33828,7 @@ by exp-lbrs.ulp</description>
 <pinref part="MOT-Z1" gate="-2" pin="S"/>
 </segment>
 </net>
-<net name="B1_Z1" class="0">
+<net name="B1_Z" class="0">
 <segment>
 <pinref part="C70" gate="G$1" pin="1"/>
 <wire x1="1668.78" y1="30.48" x2="1643.38" y2="30.48" width="0.1524" layer="91"/>
@@ -33840,7 +33840,7 @@ by exp-lbrs.ulp</description>
 <pinref part="MOT-Z1" gate="-3" pin="S"/>
 </segment>
 </net>
-<net name="B2_Z1" class="0">
+<net name="B2_Z" class="0">
 <segment>
 <pinref part="C71" gate="G$1" pin="1"/>
 <wire x1="1663.7" y1="25.4" x2="1643.38" y2="25.4" width="0.1524" layer="91"/>
@@ -33898,7 +33898,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC10" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_X1" class="0">
+<net name="A1_X" class="0">
 <segment>
 <pinref part="MOT-X" gate="-1" pin="S"/>
 <wire x1="1412.24" y1="40.64" x2="1391.92" y2="40.64" width="0.1524" layer="91"/>
@@ -33910,7 +33910,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC10" gate="G$1" pin="OA1"/>
 </segment>
 </net>
-<net name="A2_X1" class="0">
+<net name="A2_X" class="0">
 <segment>
 <pinref part="MOT-X" gate="-2" pin="S"/>
 <wire x1="1412.24" y1="35.56" x2="1391.92" y2="35.56" width="0.1524" layer="91"/>
@@ -33922,7 +33922,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC10" gate="G$1" pin="OA2"/>
 </segment>
 </net>
-<net name="B1_X1" class="0">
+<net name="B1_X" class="0">
 <segment>
 <pinref part="C96" gate="G$1" pin="1"/>
 <wire x1="1409.7" y1="30.48" x2="1391.92" y2="30.48" width="0.1524" layer="91"/>
@@ -33935,7 +33935,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1409.7" y1="30.48" x2="1412.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2_X1" class="0">
+<net name="B2_X" class="0">
 <segment>
 <pinref part="C97" gate="G$1" pin="1"/>
 <wire x1="1409.7" y1="25.4" x2="1391.92" y2="25.4" width="0.1524" layer="91"/>
@@ -33999,7 +33999,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC11" gate="G$1" pin="VCP"/>
 </segment>
 </net>
-<net name="A1_Y1" class="0">
+<net name="A1_Y" class="0">
 <segment>
 <pinref part="MOT-Y" gate="-1" pin="S"/>
 <wire x1="1539.24" y1="40.64" x2="1518.92" y2="40.64" width="0.1524" layer="91"/>
@@ -34011,7 +34011,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC11" gate="G$1" pin="OA1"/>
 </segment>
 </net>
-<net name="A2_Y1" class="0">
+<net name="A2_Y" class="0">
 <segment>
 <pinref part="MOT-Y" gate="-2" pin="S"/>
 <wire x1="1539.24" y1="35.56" x2="1518.92" y2="35.56" width="0.1524" layer="91"/>
@@ -34023,7 +34023,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC11" gate="G$1" pin="OA2"/>
 </segment>
 </net>
-<net name="B1_Y1" class="0">
+<net name="B1_Y" class="0">
 <segment>
 <pinref part="C109" gate="G$1" pin="1"/>
 <wire x1="1536.7" y1="30.48" x2="1518.92" y2="30.48" width="0.1524" layer="91"/>
@@ -34036,7 +34036,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1536.7" y1="30.48" x2="1539.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2_Y1" class="0">
+<net name="B2_Y" class="0">
 <segment>
 <pinref part="C110" gate="G$1" pin="1"/>
 <wire x1="1536.7" y1="25.4" x2="1518.92" y2="25.4" width="0.1524" layer="91"/>
@@ -34056,7 +34056,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC11" gate="G$1" pin="AIN_IREF"/>
 </segment>
 </net>
-<net name="A_Z2" class="0">
+<net name="A_Z" class="0">
 <segment>
 <pinref part="MOT-Z2" gate="-2" pin="S"/>
 <pinref part="MOT-Z1" gate="-1" pin="S"/>
@@ -34065,7 +34065,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1666.24" y1="33.02" x2="1678.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B_Z2" class="0">
+<net name="B_Z" class="0">
 <segment>
 <pinref part="MOT-Z2" gate="-3" pin="S"/>
 <wire x1="1678.94" y1="27.94" x2="1666.24" y2="27.94" width="0.1524" layer="91"/>
