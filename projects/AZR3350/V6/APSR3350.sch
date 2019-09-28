@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26466,23 +26466,23 @@ transient response.</text>
 <instance part="EXT" gate="-2" x="-261.62" y="144.78" smashed="yes" grouprefs="THERMISTORS">
 <attribute name="NAME" x="-259.08" y="144.018" size="1.524" layer="95"/>
 </instance>
-<instance part="X_STOP" gate="-1" x="-261.62" y="251.46" smashed="yes" grouprefs="ENDSTOPS">
-<attribute name="NAME" x="-259.08" y="250.698" size="1.524" layer="95"/>
-</instance>
-<instance part="X_STOP" gate="-2" x="-261.62" y="248.92" smashed="yes" grouprefs="ENDSTOPS">
-<attribute name="NAME" x="-259.08" y="248.158" size="1.524" layer="95"/>
-</instance>
-<instance part="X_STOP" gate="-3" x="-261.62" y="246.38" smashed="yes" grouprefs="ENDSTOPS">
-<attribute name="NAME" x="-259.08" y="245.618" size="1.524" layer="95"/>
-</instance>
-<instance part="Y_STOP" gate="-1" x="-261.62" y="236.22" smashed="yes" grouprefs="ENDSTOPS">
+<instance part="X_STOP" gate="-1" x="-261.62" y="236.22" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-259.08" y="235.458" size="1.524" layer="95"/>
 </instance>
-<instance part="Y_STOP" gate="-2" x="-261.62" y="233.68" smashed="yes" grouprefs="ENDSTOPS">
+<instance part="X_STOP" gate="-2" x="-261.62" y="233.68" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-259.08" y="232.918" size="1.524" layer="95"/>
 </instance>
-<instance part="Y_STOP" gate="-3" x="-261.62" y="231.14" smashed="yes" grouprefs="ENDSTOPS">
+<instance part="X_STOP" gate="-3" x="-261.62" y="231.14" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-259.08" y="230.378" size="1.524" layer="95"/>
+</instance>
+<instance part="Y_STOP" gate="-1" x="-261.62" y="251.46" smashed="yes" grouprefs="ENDSTOPS">
+<attribute name="NAME" x="-259.08" y="250.698" size="1.524" layer="95"/>
+</instance>
+<instance part="Y_STOP" gate="-2" x="-261.62" y="248.92" smashed="yes" grouprefs="ENDSTOPS">
+<attribute name="NAME" x="-259.08" y="248.158" size="1.524" layer="95"/>
+</instance>
+<instance part="Y_STOP" gate="-3" x="-261.62" y="246.38" smashed="yes" grouprefs="ENDSTOPS">
+<attribute name="NAME" x="-259.08" y="245.618" size="1.524" layer="95"/>
 </instance>
 <instance part="Z_STOP" gate="-1" x="-261.62" y="220.98" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-259.08" y="220.218" size="1.524" layer="95"/>
@@ -26945,25 +26945,25 @@ transient response.</text>
 <attribute name="NAME" x="-293.37" y="207.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-293.37" y="202.438" size="1.778" layer="96"/>
 </instance>
-<instance part="R75" gate="G$1" x="-289.56" y="251.46" smashed="yes" grouprefs="ENDSTOPS">
-<attribute name="NAME" x="-293.37" y="252.9586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-293.37" y="248.158" size="1.778" layer="96"/>
-</instance>
-<instance part="R76" gate="G$1" x="-289.56" y="236.22" smashed="yes" grouprefs="ENDSTOPS">
+<instance part="R75" gate="G$1" x="-289.56" y="236.22" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-293.37" y="237.7186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-293.37" y="232.918" size="1.778" layer="96"/>
+</instance>
+<instance part="R76" gate="G$1" x="-289.56" y="251.46" smashed="yes" grouprefs="ENDSTOPS">
+<attribute name="NAME" x="-293.37" y="252.9586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-293.37" y="248.158" size="1.778" layer="96"/>
 </instance>
 <instance part="R77" gate="G$1" x="-289.56" y="220.98" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-293.37" y="222.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-293.37" y="217.678" size="1.778" layer="96"/>
 </instance>
-<instance part="C36" gate="G$1" x="-302.26" y="246.38" smashed="yes" grouprefs="ENDSTOPS">
-<attribute name="NAME" x="-300.736" y="246.761" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-300.736" y="241.681" size="1.778" layer="96"/>
-</instance>
-<instance part="C37" gate="G$1" x="-302.26" y="231.14" smashed="yes" grouprefs="ENDSTOPS">
+<instance part="C36" gate="G$1" x="-302.26" y="231.14" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-300.736" y="231.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-300.736" y="226.441" size="1.778" layer="96"/>
+</instance>
+<instance part="C37" gate="G$1" x="-302.26" y="246.38" smashed="yes" grouprefs="ENDSTOPS">
+<attribute name="NAME" x="-300.736" y="246.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-300.736" y="241.681" size="1.778" layer="96"/>
 </instance>
 <instance part="C67" gate="G$1" x="-302.26" y="215.9" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-300.736" y="216.281" size="1.778" layer="95"/>
@@ -26984,20 +26984,20 @@ transient response.</text>
 <attribute name="NAME" x="-280.8986" y="224.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-276.098" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R80" gate="G$1" x="-279.4" y="243.84" smashed="yes" rot="R90" grouprefs="ENDSTOPS">
-<attribute name="NAME" x="-280.8986" y="240.03" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-276.098" y="240.03" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R81" gate="G$1" x="-279.4" y="259.08" smashed="yes" rot="R90" grouprefs="ENDSTOPS">
+<instance part="R80" gate="G$1" x="-279.4" y="259.08" smashed="yes" rot="R90" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-280.8986" y="255.27" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-276.098" y="255.27" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R81" gate="G$1" x="-279.4" y="243.84" smashed="yes" rot="R90" grouprefs="ENDSTOPS">
+<attribute name="NAME" x="-280.8986" y="240.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-276.098" y="240.03" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="-274.32" y="271.78" smashed="yes" grouprefs="ENDSTOPS">
 <attribute name="VALUE" x="-276.86" y="266.7" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D5" gate="G$1" x="-314.96" y="243.84" smashed="yes" rot="R90" grouprefs="ENDSTOPS">
-<attribute name="NAME" x="-316.9666" y="244.602" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-310.9976" y="239.522" size="1.778" layer="96" rot="R90"/>
+<instance part="D5" gate="G$1" x="-325.12" y="243.84" smashed="yes" rot="R270" grouprefs="ENDSTOPS">
+<attribute name="NAME" x="-323.1134" y="243.078" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-329.0824" y="248.158" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="D6" gate="G$1" x="-314.96" y="213.36" smashed="yes" rot="R90" grouprefs="ENDSTOPS">
 <attribute name="NAME" x="-316.9666" y="214.122" size="1.778" layer="95" rot="R90"/>
@@ -27296,21 +27296,21 @@ transient response.</text>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<wire x1="-266.7" y1="248.92" x2="-266.7" y2="256.54" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-264.16" y1="233.68" x2="-266.7" y2="233.68" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-264.16" y1="248.92" x2="-266.7" y2="248.92" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-266.7" y1="248.92" x2="-266.7" y2="233.68" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<junction x="-266.7" y="233.68" grouprefs="ENDSTOPS"/>
-<junction x="-266.7" y="248.92" grouprefs="ENDSTOPS"/>
+<wire x1="-266.7" y1="233.68" x2="-266.7" y2="248.92" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <pinref part="X_STOP" gate="-2" pin="S"/>
-<pinref part="Y_STOP" gate="-2" pin="S"/>
 <pinref part="Z_STOP" gate="-2" pin="S"/>
+<wire x1="-266.7" y1="248.92" x2="-266.7" y2="256.54" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-264.16" y1="218.44" x2="-266.7" y2="218.44" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-266.7" y1="218.44" x2="-266.7" y2="233.68" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-264.16" y1="203.2" x2="-266.7" y2="203.2" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-266.7" y1="218.44" x2="-266.7" y2="203.2" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <pinref part="E_STOP" gate="-2" pin="S"/>
 <junction x="-266.7" y="218.44" grouprefs="ENDSTOPS"/>
+<wire x1="-264.16" y1="248.92" x2="-266.7" y2="248.92" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<pinref part="Y_STOP" gate="-2" pin="S"/>
+<junction x="-266.7" y="248.92"/>
+<junction x="-266.7" y="233.68"/>
 </segment>
 <segment>
 <pinref part="R50" gate="G$1" pin="2"/>
@@ -27521,17 +27521,17 @@ transient response.</text>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <pinref part="R78" gate="G$1" pin="2"/>
-<wire x1="-274.32" y1="269.24" x2="-274.32" y2="264.16" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-274.32" y1="264.16" x2="-274.32" y2="248.92" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-274.32" y1="248.92" x2="-274.32" y2="233.68" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-274.32" y1="269.24" x2="-274.32" y2="248.92" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-274.32" y1="248.92" x2="-274.32" y2="264.16" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-274.32" y1="264.16" x2="-274.32" y2="233.68" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-274.32" y1="233.68" x2="-274.32" y2="218.44" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-274.32" y1="218.44" x2="-279.4" y2="218.44" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <pinref part="R81" gate="G$1" pin="2"/>
-<wire x1="-279.4" y1="264.16" x2="-274.32" y2="264.16" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<junction x="-274.32" y="264.16" grouprefs="ENDSTOPS"/>
-<pinref part="R80" gate="G$1" pin="2"/>
 <wire x1="-279.4" y1="248.92" x2="-274.32" y2="248.92" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <junction x="-274.32" y="248.92" grouprefs="ENDSTOPS"/>
+<pinref part="R80" gate="G$1" pin="2"/>
+<wire x1="-279.4" y1="264.16" x2="-274.32" y2="264.16" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<junction x="-274.32" y="264.16" grouprefs="ENDSTOPS"/>
 <pinref part="R79" gate="G$1" pin="2"/>
 <wire x1="-279.4" y1="233.68" x2="-274.32" y2="233.68" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <junction x="-274.32" y="233.68" grouprefs="ENDSTOPS"/>
@@ -27540,7 +27540,7 @@ transient response.</text>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 <pinref part="D5" gate="G$1" pin="CC"/>
 <wire x1="-320.04" y1="256.54" x2="-320.04" y2="243.84" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-320.04" y1="243.84" x2="-317.5" y2="243.84" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-320.04" y1="243.84" x2="-322.58" y2="243.84" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <pinref part="D6" gate="G$1" pin="CC"/>
 <wire x1="-320.04" y1="243.84" x2="-320.04" y2="213.36" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-320.04" y1="213.36" x2="-317.5" y2="213.36" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
@@ -28082,11 +28082,11 @@ transient response.</text>
 <pinref part="E_STOP" gate="-3" pin="S"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="-264.16" y1="215.9" x2="-269.24" y2="215.9" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-269.24" y1="215.9" x2="-269.24" y2="231.14" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-269.24" y1="231.14" x2="-269.24" y2="246.38" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-264.16" y1="231.14" x2="-269.24" y2="231.14" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<junction x="-269.24" y="231.14" grouprefs="ENDSTOPS"/>
+<wire x1="-269.24" y1="215.9" x2="-269.24" y2="246.38" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-269.24" y1="246.38" x2="-269.24" y2="231.14" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-264.16" y1="246.38" x2="-269.24" y2="246.38" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<junction x="-269.24" y="246.38" grouprefs="ENDSTOPS"/>
+<wire x1="-264.16" y1="231.14" x2="-269.24" y2="231.14" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <pinref part="X_STOP" gate="-3" pin="S"/>
 <pinref part="Y_STOP" gate="-3" pin="S"/>
 <pinref part="Z_STOP" gate="-3" pin="S"/>
@@ -28108,11 +28108,11 @@ transient response.</text>
 <wire x1="-302.26" y1="210.82" x2="-302.26" y2="208.28" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-302.26" y1="208.28" x2="-307.34" y2="208.28" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <junction x="-307.34" y="208.28" grouprefs="ENDSTOPS"/>
-<wire x1="-307.34" y1="223.52" x2="-302.26" y2="223.52" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-302.26" y1="223.52" x2="-302.26" y2="226.06" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<junction x="-307.34" y="223.52" grouprefs="ENDSTOPS"/>
 <wire x1="-307.34" y1="238.76" x2="-302.26" y2="238.76" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-302.26" y1="238.76" x2="-302.26" y2="241.3" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-307.34" y1="223.52" x2="-302.26" y2="223.52" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-302.26" y1="223.52" x2="-302.26" y2="226.06" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<junction x="-307.34" y="223.52"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -28367,44 +28367,44 @@ transient response.</text>
 <label x="-734.06" y="213.36" size="1.778" layer="95" grouprefs="MICROCONTROLLER"/>
 </segment>
 </net>
-<net name="X_STOP" class="0">
-<segment>
-<label x="-337.82" y="251.46" size="1.778" layer="95" grouprefs="ENDSTOPS"/>
-<wire x1="-294.64" y1="251.46" x2="-302.26" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<pinref part="R75" gate="G$1" pin="1"/>
-<pinref part="C36" gate="G$1" pin="1"/>
-<wire x1="-302.26" y1="251.46" x2="-314.96" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-314.96" y1="251.46" x2="-337.82" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-302.26" y1="251.46" x2="-302.26" y2="248.92" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<junction x="-302.26" y="251.46" grouprefs="ENDSTOPS"/>
-<pinref part="D5" gate="G$1" pin="A2"/>
-<wire x1="-314.96" y1="248.92" x2="-314.96" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<junction x="-314.96" y="251.46" grouprefs="ENDSTOPS"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="PC15/AD11"/>
-<wire x1="-734.06" y1="200.66" x2="-713.74" y2="200.66" width="0.1524" layer="91"/>
-<label x="-734.06" y="200.66" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="Y_STOP" class="0">
 <segment>
 <label x="-337.82" y="236.22" size="1.778" layer="95" grouprefs="ENDSTOPS"/>
-<wire x1="-337.82" y1="236.22" x2="-314.96" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<pinref part="R76" gate="G$1" pin="1"/>
-<pinref part="C37" gate="G$1" pin="1"/>
-<wire x1="-314.96" y1="236.22" x2="-302.26" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-302.26" y1="236.22" x2="-294.64" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-302.26" y1="233.68" x2="-302.26" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-294.64" y1="236.22" x2="-302.26" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<pinref part="R75" gate="G$1" pin="1"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<wire x1="-302.26" y1="236.22" x2="-325.12" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-325.12" y1="236.22" x2="-337.82" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-302.26" y1="236.22" x2="-302.26" y2="233.68" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <junction x="-302.26" y="236.22" grouprefs="ENDSTOPS"/>
-<pinref part="D5" gate="G$1" pin="A1"/>
-<wire x1="-314.96" y1="238.76" x2="-314.96" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<junction x="-314.96" y="236.22" grouprefs="ENDSTOPS"/>
+<pinref part="D5" gate="G$1" pin="A2"/>
+<wire x1="-325.12" y1="238.76" x2="-325.12" y2="236.22" width="0.1524" layer="91"/>
+<junction x="-325.12" y="236.22"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="PA23/PGMD11"/>
 <wire x1="-713.74" y1="193.04" x2="-734.06" y2="193.04" width="0.1524" layer="91"/>
 <label x="-734.06" y="193.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="X_STOP" class="0">
+<segment>
+<label x="-337.82" y="251.46" size="1.778" layer="95" grouprefs="ENDSTOPS"/>
+<wire x1="-337.82" y1="251.46" x2="-325.12" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<pinref part="R76" gate="G$1" pin="1"/>
+<pinref part="C37" gate="G$1" pin="1"/>
+<wire x1="-325.12" y1="251.46" x2="-302.26" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-302.26" y1="251.46" x2="-294.64" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-302.26" y1="248.92" x2="-302.26" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<junction x="-302.26" y="251.46" grouprefs="ENDSTOPS"/>
+<pinref part="D5" gate="G$1" pin="A1"/>
+<wire x1="-325.12" y1="248.92" x2="-325.12" y2="251.46" width="0.1524" layer="91"/>
+<junction x="-325.12" y="251.46"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PC15/AD11"/>
+<wire x1="-734.06" y1="200.66" x2="-713.74" y2="200.66" width="0.1524" layer="91"/>
+<label x="-734.06" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="T_BED" class="0">
@@ -30054,26 +30054,26 @@ transient response.</text>
 <junction x="-279.4" y="205.74" grouprefs="ENDSTOPS"/>
 </segment>
 </net>
-<net name="X_STOP_IN" class="0">
-<segment>
-<pinref part="X_STOP" gate="-1" pin="S"/>
-<wire x1="-264.16" y1="251.46" x2="-279.4" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<pinref part="R75" gate="G$1" pin="2"/>
-<pinref part="R81" gate="G$1" pin="1"/>
-<wire x1="-279.4" y1="251.46" x2="-284.48" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<wire x1="-279.4" y1="254" x2="-279.4" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<junction x="-279.4" y="251.46" grouprefs="ENDSTOPS"/>
-</segment>
-</net>
 <net name="Y_STOP_IN" class="0">
 <segment>
-<pinref part="Y_STOP" gate="-1" pin="S"/>
-<wire x1="-284.48" y1="236.22" x2="-279.4" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
-<pinref part="R76" gate="G$1" pin="2"/>
-<pinref part="R80" gate="G$1" pin="1"/>
-<wire x1="-279.4" y1="236.22" x2="-264.16" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<pinref part="X_STOP" gate="-1" pin="S"/>
+<wire x1="-264.16" y1="236.22" x2="-279.4" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<pinref part="R75" gate="G$1" pin="2"/>
+<pinref part="R81" gate="G$1" pin="1"/>
+<wire x1="-279.4" y1="236.22" x2="-284.48" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <wire x1="-279.4" y1="238.76" x2="-279.4" y2="236.22" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
 <junction x="-279.4" y="236.22" grouprefs="ENDSTOPS"/>
+</segment>
+</net>
+<net name="X_STOP_IN" class="0">
+<segment>
+<pinref part="Y_STOP" gate="-1" pin="S"/>
+<wire x1="-284.48" y1="251.46" x2="-279.4" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<pinref part="R76" gate="G$1" pin="2"/>
+<pinref part="R80" gate="G$1" pin="1"/>
+<wire x1="-279.4" y1="251.46" x2="-264.16" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<wire x1="-279.4" y1="254" x2="-279.4" y2="251.46" width="0.1524" layer="91" grouprefs="ENDSTOPS"/>
+<junction x="-279.4" y="251.46" grouprefs="ENDSTOPS"/>
 </segment>
 </net>
 <net name="PWR_FAIL_DET2" class="0">
