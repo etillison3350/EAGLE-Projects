@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -2035,6 +2035,28 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <pad name="1" x="2.54" y="-2.54" drill="1.09"/>
 <pad name="S2" x="-2.54" y="-2.54" drill="1.09"/>
 <pad name="S1" x="-2.54" y="2.54" drill="1.09"/>
+<wire x1="-6.4" y1="4.065" x2="2.54" y2="4.065" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="4.065" x2="-6.4" y2="-4.065" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="-4.065" x2="2.54" y2="-4.065" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-4.065" x2="2.54" y2="4.065" width="0.127" layer="51"/>
+<wire x1="-6.4" y1="2" x2="-9" y2="2" width="0.127" layer="51"/>
+<wire x1="-9" y1="2" x2="-10" y2="2" width="0.127" layer="51"/>
+<wire x1="-10" y1="2" x2="-10" y2="-2" width="0.127" layer="51"/>
+<wire x1="-10" y1="-2" x2="-9" y2="-2" width="0.127" layer="51"/>
+<wire x1="-9" y1="-2" x2="-6.4" y2="-2" width="0.127" layer="51"/>
+<wire x1="-9" y1="2" x2="-8" y2="0" width="0.127" layer="51"/>
+<wire x1="-8" y1="0" x2="-9" y2="-2" width="0.127" layer="51"/>
+<wire x1="-10" y1="2" x2="-10" y2="7.365" width="0.127" layer="51"/>
+<wire x1="-10" y1="-2" x2="-10" y2="-7.365" width="0.127" layer="51"/>
+<wire x1="-16.94703125" y1="-5.473853125" x2="-16.6" y2="-1.224490625" width="0.127" layer="51"/>
+<wire x1="-16.6" y1="-1.224490625" x2="-16.6" y2="1.224490625" width="0.127" layer="51"/>
+<wire x1="-16.6" y1="1.224490625" x2="-16.949503125" y2="5.50411875" width="0.127" layer="51"/>
+<wire x1="-16.949503125" y1="5.50411875" x2="-16.501696875" y2="6.09535625" width="0.127" layer="51"/>
+<wire x1="-16.501696875" y1="6.09535625" x2="-10" y2="7.365" width="0.127" layer="51"/>
+<wire x1="-10" y1="-7.365" x2="-16.471884375" y2="-6.101178125" width="0.127" layer="51"/>
+<wire x1="-16.471884375" y1="-6.101178125" x2="-16.94703125" y2="-5.473853125" width="0.127" layer="51"/>
+<text x="-6" y="-6" size="1.27" layer="51">&gt;NAME</text>
+<text x="-6" y="5" size="1.27" layer="51">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>

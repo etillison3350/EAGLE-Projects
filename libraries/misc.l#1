@@ -3526,7 +3526,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="KPJX-4S-S">
+<deviceset name="KPJX-4S-S" prefix="J">
 <gates>
 <gate name="G$1" symbol="PINH2X2-S" x="0" y="0"/>
 </gates>
@@ -3557,6 +3557,23 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <connect gate="G$1" pin="3" pad="11"/>
 <connect gate="G$1" pin="4" pad="14"/>
 <connect gate="G$1" pin="5" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPDT-90" prefix="SW" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="U" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPDT-90">
+<connects>
+<connect gate="G$1" pin="O" pad="1"/>
+<connect gate="G$1" pin="P" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
