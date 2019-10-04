@@ -28382,9 +28382,9 @@ transient response.</text>
 <junction x="-314.96" y="251.46" grouprefs="ENDSTOPS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="TMS/SWDIO/PB6"/>
-<wire x1="-612.14" y1="193.04" x2="-591.82" y2="193.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
-<label x="-609.6" y="193.04" size="1.778" layer="95" grouprefs="MICROCONTROLLER"/>
+<pinref part="IC3" gate="G$1" pin="PC15/AD11"/>
+<wire x1="-734.06" y1="200.66" x2="-713.74" y2="200.66" width="0.1524" layer="91"/>
+<label x="-734.06" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Y_STOP" class="0">
@@ -28402,9 +28402,9 @@ transient response.</text>
 <junction x="-314.96" y="236.22" grouprefs="ENDSTOPS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="PC18"/>
-<wire x1="-612.14" y1="190.5" x2="-591.82" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
-<label x="-609.6" y="190.5" size="1.778" layer="95" grouprefs="MICROCONTROLLER"/>
+<pinref part="IC3" gate="G$1" pin="PA23/PGMD11"/>
+<wire x1="-713.74" y1="193.04" x2="-734.06" y2="193.04" width="0.1524" layer="91"/>
+<label x="-734.06" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="T_BED" class="0">
@@ -29260,13 +29260,13 @@ transient response.</text>
 <wire x1="-20.32" y1="190.5" x2="-20.32" y2="172.72" width="0.1524" layer="91" grouprefs="LCD"/>
 <wire x1="-20.32" y1="172.72" x2="-17.78" y2="172.72" width="0.1524" layer="91" grouprefs="LCD"/>
 <junction x="-20.32" y="190.5" grouprefs="LCD"/>
-<wire x1="-20.32" y1="172.72" x2="-20.32" y2="154.94" width="0.1524" layer="91" grouprefs="LCD"/>
-<wire x1="-20.32" y1="154.94" x2="-17.78" y2="154.94" width="0.1524" layer="91" grouprefs="LCD"/>
+<wire x1="-20.32" y1="172.72" x2="-20.32" y2="160.02" width="0.1524" layer="91" grouprefs="LCD"/>
+<wire x1="-20.32" y1="160.02" x2="-17.78" y2="160.02" width="0.1524" layer="91" grouprefs="LCD"/>
 <junction x="-20.32" y="172.72" grouprefs="LCD"/>
 <pinref part="IC4" gate="B" pin="I0"/>
 <pinref part="IC4" gate="B" pin="I1"/>
 <pinref part="IC4" gate="C" pin="I1"/>
-<pinref part="IC4" gate="D" pin="I1"/>
+<pinref part="IC4" gate="D" pin="I0"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="PB14/DAC1"/>
@@ -29779,9 +29779,9 @@ transient response.</text>
 <label x="-609.6" y="167.64" size="1.778" layer="95" grouprefs="MICROCONTROLLER"/>
 </segment>
 <segment>
-<wire x1="-17.78" y1="160.02" x2="-38.1" y2="160.02" width="0.1524" layer="91" grouprefs="LCD"/>
-<label x="-38.1" y="160.02" size="1.778" layer="95" grouprefs="LCD"/>
-<pinref part="IC4" gate="D" pin="I0"/>
+<wire x1="-17.78" y1="154.94" x2="-38.1" y2="154.94" width="0.1524" layer="91" grouprefs="LCD"/>
+<label x="-38.1" y="154.94" size="1.778" layer="95" grouprefs="LCD"/>
+<pinref part="IC4" gate="D" pin="I1"/>
 </segment>
 </net>
 <net name="VDDOUT" class="0">

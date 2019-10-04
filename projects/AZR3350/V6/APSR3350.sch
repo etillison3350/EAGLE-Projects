@@ -25857,7 +25857,7 @@ TR5, Wickmann</description>
 <part name="Z" library="con-other" deviceset="KK-254-4" device=""/>
 <part name="E" library="con-other" deviceset="KK-254-4" device=""/>
 <part name="IC3" library="misc" deviceset="ATSAM4S8C" device=""/>
-<part name="ES1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ESP-12" device="" package3d_urn="urn:adsk.eagle:package:6240951/1"/>
+<part name="ESP8266" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ESP-12" device="" package3d_urn="urn:adsk.eagle:package:6240951/1"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
@@ -25954,7 +25954,7 @@ TR5, Wickmann</description>
 <part name="Q2" library="misc" deviceset="AON7524" device=""/>
 <part name="Q3" library="misc" deviceset="AON7524" device=""/>
 <part name="Q4" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC817*" device="SMD" package3d_urn="urn:adsk.eagle:package:28748/2" technology="-16"/>
-<part name="SG1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:5265/1"/>
+<part name="BEEPER" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:5265/1"/>
 <part name="R44" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -26023,7 +26023,7 @@ TR5, Wickmann</description>
 <part name="F3" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="19560" device="" package3d_urn="urn:adsk.eagle:package:14057/1"/>
 <part name="R42" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4K7"/>
 <part name="R43" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4K7"/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="J4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="IC8" library="RepRapjr" deviceset="A4988" device=""/>
 <part name="C47" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
@@ -26051,7 +26051,7 @@ TR5, Wickmann</description>
 <part name="C51" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="Y" library="con-other" deviceset="KK-254-4" device=""/>
-<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="J5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="ERASE" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 </parts>
 <sheets>
@@ -26533,7 +26533,7 @@ transient response.</text>
 <attribute name="NAME" x="-662.94" y="185.42" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="-662.94" y="180.34" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="ES1" gate="G$1" x="-490.22" y="185.42" smashed="yes" grouprefs="WIFI"/>
+<instance part="ESP8266" gate="G$1" x="-490.22" y="185.42" smashed="yes" grouprefs="WIFI"/>
 <instance part="GND20" gate="1" x="-662.94" y="111.76" smashed="yes" grouprefs="MICROCONTROLLER">
 <attribute name="VALUE" x="-665.48" y="109.22" size="1.778" layer="96"/>
 </instance>
@@ -26892,7 +26892,7 @@ transient response.</text>
 <attribute name="NAME" x="-76.2" y="193.04" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-76.2" y="190.5" size="1.778" layer="96"/>
 </instance>
-<instance part="SG1" gate="G$1" x="-50.8" y="190.5" smashed="yes" rot="R180" grouprefs="LCD">
+<instance part="BEEPER" gate="G$1" x="-50.8" y="190.5" smashed="yes" rot="R180" grouprefs="LCD">
 <attribute name="NAME" x="-48.26" y="184.15" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-57.15" y="190.5" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -27175,7 +27175,7 @@ transient response.</text>
 <attribute name="NAME" x="-186.69" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-186.69" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="JP2" gate="A" x="63.5" y="177.8" smashed="yes" grouprefs="LCD">
+<instance part="J4" gate="A" x="63.5" y="177.8" smashed="yes" grouprefs="LCD">
 <attribute name="NAME" x="57.15" y="188.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="167.64" size="1.778" layer="96"/>
 </instance>
@@ -27281,7 +27281,7 @@ transient response.</text>
 <instance part="Y" gate="-4" x="269.24" y="193.04" smashed="yes" rot="R90" grouprefs="YMOT">
 <attribute name="NAME" x="270.002" y="195.58" size="1.524" layer="95" rot="R90"/>
 </instance>
-<instance part="JP3" gate="A" x="-106.68" y="185.42" smashed="yes">
+<instance part="J5" gate="A" x="-106.68" y="185.42" smashed="yes">
 <attribute name="NAME" x="-113.03" y="193.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-113.03" y="177.8" size="1.778" layer="96"/>
 </instance>
@@ -27866,7 +27866,7 @@ transient response.</text>
 </segment>
 <segment>
 <pinref part="GND31" gate="1" pin="GND"/>
-<pinref part="ES1" gate="G$1" pin="GND"/>
+<pinref part="ESP8266" gate="G$1" pin="GND"/>
 <wire x1="-469.9" y1="167.64" x2="-469.9" y2="172.72" width="0.1524" layer="91" grouprefs="WIFI"/>
 <wire x1="-469.9" y1="172.72" x2="-472.44" y2="172.72" width="0.1524" layer="91" grouprefs="WIFI"/>
 </segment>
@@ -28060,13 +28060,13 @@ transient response.</text>
 <pinref part="GND46" gate="1" pin="GND"/>
 <wire x1="35.56" y1="129.54" x2="35.56" y2="172.72" width="0.1524" layer="91" grouprefs="LCD"/>
 <wire x1="35.56" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91" grouprefs="LCD"/>
-<pinref part="JP2" gate="A" pin="6"/>
+<pinref part="J4" gate="A" pin="6"/>
 </segment>
 <segment>
 <wire x1="-109.22" y1="182.88" x2="-116.84" y2="182.88" width="0.1524" layer="91" grouprefs="LCD"/>
 <wire x1="-116.84" y1="182.88" x2="-116.84" y2="177.8" width="0.1524" layer="91" grouprefs="LCD"/>
 <pinref part="GND39" gate="1" pin="GND"/>
-<pinref part="JP3" gate="A" pin="4"/>
+<pinref part="J5" gate="A" pin="4"/>
 </segment>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
@@ -29032,7 +29032,7 @@ transient response.</text>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="SG1" gate="G$1" pin="1"/>
+<pinref part="BEEPER" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="198.12" x2="-45.72" y2="193.04" width="0.1524" layer="91" grouprefs="LCD"/>
 <wire x1="-45.72" y1="193.04" x2="-48.26" y2="193.04" width="0.1524" layer="91" grouprefs="LCD"/>
 </segment>
@@ -29044,7 +29044,7 @@ transient response.</text>
 <wire x1="38.1" y1="177.8" x2="40.64" y2="177.8" width="0.1524" layer="91" grouprefs="LCD"/>
 <wire x1="60.96" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91" grouprefs="LCD"/>
 <junction x="38.1" y="177.8" grouprefs="LCD"/>
-<pinref part="JP2" gate="A" pin="5"/>
+<pinref part="J4" gate="A" pin="5"/>
 </segment>
 <segment>
 <wire x1="-942.34" y1="193.04" x2="-937.26" y2="193.04" width="0.1524" layer="91" grouprefs="POWER"/>
@@ -29217,7 +29217,7 @@ transient response.</text>
 <segment>
 <wire x1="-109.22" y1="185.42" x2="-129.54" y2="185.42" width="0.1524" layer="91" grouprefs="LCD"/>
 <label x="-129.54" y="185.42" size="1.778" layer="95" grouprefs="LCD"/>
-<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="J5" gate="A" pin="3"/>
 </segment>
 <segment>
 <wire x1="-612.14" y1="195.58" x2="-591.82" y2="195.58" width="0.1524" layer="91"/>
@@ -29241,7 +29241,7 @@ transient response.</text>
 <segment>
 <wire x1="-109.22" y1="190.5" x2="-129.54" y2="190.5" width="0.1524" layer="91" grouprefs="LCD"/>
 <label x="-129.54" y="190.5" size="1.778" layer="95" grouprefs="LCD"/>
-<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="J5" gate="A" pin="1"/>
 </segment>
 <segment>
 <wire x1="-612.14" y1="203.2" x2="-591.82" y2="203.2" width="0.1524" layer="91"/>
@@ -29278,7 +29278,7 @@ transient response.</text>
 <segment>
 <wire x1="-129.54" y1="187.96" x2="-109.22" y2="187.96" width="0.1524" layer="91" grouprefs="LCD"/>
 <label x="-129.54" y="187.96" size="1.778" layer="95" grouprefs="LCD"/>
-<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="J5" gate="A" pin="2"/>
 </segment>
 <segment>
 <wire x1="-591.82" y1="200.66" x2="-612.14" y2="200.66" width="0.1524" layer="91"/>
@@ -29496,7 +29496,7 @@ transient response.</text>
 </net>
 <net name="ESP_RESET" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="RESET"/>
+<pinref part="ESP8266" gate="G$1" pin="RESET"/>
 <wire x1="-508" y1="190.5" x2="-510.54" y2="190.5" width="0.1524" layer="91" grouprefs="WIFI"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="-510.54" y1="190.5" x2="-510.54" y2="208.28" width="0.1524" layer="91" grouprefs="WIFI"/>
@@ -29521,7 +29521,7 @@ transient response.</text>
 </net>
 <net name="ESP_EN" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="CH_PD"/>
+<pinref part="ESP8266" gate="G$1" pin="CH_PD"/>
 <wire x1="-508" y1="185.42" x2="-520.7" y2="185.42" width="0.1524" layer="91" grouprefs="WIFI"/>
 <wire x1="-520.7" y1="185.42" x2="-520.7" y2="193.04" width="0.1524" layer="91" grouprefs="WIFI"/>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -29541,21 +29541,21 @@ transient response.</text>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="-513.08" y1="180.34" x2="-508" y2="180.34" width="0.1524" layer="91" grouprefs="WIFI"/>
-<pinref part="ES1" gate="G$1" pin="GPIO14"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO14"/>
 </segment>
 </net>
 <net name="ESP_MISO" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-513.08" y1="177.8" x2="-508" y2="177.8" width="0.1524" layer="91" grouprefs="WIFI"/>
-<pinref part="ES1" gate="G$1" pin="GPIO12"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO12"/>
 </segment>
 </net>
 <net name="ESP_MOSI" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-513.08" y1="175.26" x2="-508" y2="175.26" width="0.1524" layer="91" grouprefs="WIFI"/>
-<pinref part="ES1" gate="G$1" pin="GPIO13"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO13"/>
 </segment>
 </net>
 <net name="SPCK" class="0">
@@ -29572,7 +29572,7 @@ transient response.</text>
 </net>
 <net name="ESP_VIN" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="VCC"/>
+<pinref part="ESP8266" gate="G$1" pin="VCC"/>
 <wire x1="-510.54" y1="167.64" x2="-510.54" y2="172.72" width="0.1524" layer="91" grouprefs="WIFI"/>
 <wire x1="-510.54" y1="172.72" x2="-508" y2="172.72" width="0.1524" layer="91" grouprefs="WIFI"/>
 <pinref part="L5" gate="L" pin="2"/>
@@ -29581,21 +29581,21 @@ transient response.</text>
 </net>
 <net name="ESP_URDX" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="TXD"/>
+<pinref part="ESP8266" gate="G$1" pin="TXD"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="-467.36" y1="190.5" x2="-472.44" y2="190.5" width="0.1524" layer="91" grouprefs="WIFI"/>
 </segment>
 </net>
 <net name="ESP_UTDX" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="RXD"/>
+<pinref part="ESP8266" gate="G$1" pin="RXD"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="-467.36" y1="187.96" x2="-472.44" y2="187.96" width="0.1524" layer="91" grouprefs="WIFI"/>
 </segment>
 </net>
 <net name="SAM_TFR_RDY" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="GPIO4"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO4"/>
 <wire x1="-472.44" y1="185.42" x2="-439.42" y2="185.42" width="0.1524" layer="91" grouprefs="WIFI"/>
 <label x="-457.2" y="185.42" size="1.778" layer="95" grouprefs="WIFI"/>
 </segment>
@@ -29607,7 +29607,7 @@ transient response.</text>
 </net>
 <net name="EDR_CONN" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="GPIO0"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO0"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="-472.44" y1="180.34" x2="-467.36" y2="180.34" width="0.1524" layer="91" grouprefs="WIFI"/>
 </segment>
@@ -29626,7 +29626,7 @@ transient response.</text>
 </net>
 <net name="ESP_CS" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="GPIO15"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO15"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="-472.44" y1="175.26" x2="-467.36" y2="175.26" width="0.1524" layer="91" grouprefs="WIFI"/>
 </segment>
@@ -29856,7 +29856,7 @@ transient response.</text>
 <wire x1="40.64" y1="180.34" x2="60.96" y2="180.34" width="0.1524" layer="91" grouprefs="LCD"/>
 <label x="10.16" y="193.04" size="1.778" layer="95" grouprefs="LCD"/>
 <pinref part="IC4" gate="B" pin="O"/>
-<pinref part="JP2" gate="A" pin="3"/>
+<pinref part="J4" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="LCD_SCK_BUF" class="0">
@@ -29866,7 +29866,7 @@ transient response.</text>
 <wire x1="53.34" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91" grouprefs="LCD"/>
 <wire x1="53.34" y1="157.48" x2="53.34" y2="185.42" width="0.1524" layer="91" grouprefs="LCD"/>
 <pinref part="IC4" gate="D" pin="O"/>
-<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="J4" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="LCD_MOSI_BUF" class="0">
@@ -29876,7 +29876,7 @@ transient response.</text>
 <wire x1="35.56" y1="175.26" x2="35.56" y2="182.88" width="0.1524" layer="91" grouprefs="LCD"/>
 <wire x1="35.56" y1="182.88" x2="60.96" y2="182.88" width="0.1524" layer="91" grouprefs="LCD"/>
 <pinref part="IC4" gate="C" pin="O"/>
-<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="J4" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="ERASE" class="0">
@@ -29997,7 +29997,7 @@ transient response.</text>
 </net>
 <net name="BEEP_OUT" class="0">
 <segment>
-<pinref part="SG1" gate="G$1" pin="2"/>
+<pinref part="BEEPER" gate="G$1" pin="2"/>
 <pinref part="Q4" gate="G$1" pin="C"/>
 <wire x1="-55.88" y1="193.04" x2="-63.5" y2="193.04" width="0.1524" layer="91" grouprefs="LCD"/>
 <wire x1="-63.5" y1="193.04" x2="-63.5" y2="190.5" width="0.1524" layer="91" grouprefs="LCD"/>
@@ -30239,7 +30239,7 @@ transient response.</text>
 <segment>
 <pinref part="R45" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91" grouprefs="LCD"/>
-<pinref part="JP2" gate="A" pin="4"/>
+<pinref part="J4" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="EXT_FUSED" class="0">

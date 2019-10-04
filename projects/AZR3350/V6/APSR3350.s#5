@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -29966,13 +29966,6 @@ transient response.</text>
 <label x="-764.54" y="198.12" size="1.778" layer="95" grouprefs="USB"/>
 </segment>
 </net>
-<net name="PWR_FAIL_DET" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PC12/AD12"/>
-<wire x1="-713.74" y1="190.5" x2="-734.06" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
-<label x="-734.06" y="190.5" size="1.778" layer="95" grouprefs="MICROCONTROLLER"/>
-</segment>
-</net>
 <net name="VSSA_MON" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -30101,6 +30094,11 @@ transient response.</text>
 <wire x1="-1191.26" y1="182.88" x2="-1183.64" y2="182.88" width="0.1524" layer="91" grouprefs="POWER"/>
 <wire x1="-1183.64" y1="182.88" x2="-1183.64" y2="180.34" width="0.1524" layer="91" grouprefs="POWER"/>
 <junction x="-1191.26" y="182.88" grouprefs="POWER"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PC12/AD12"/>
+<wire x1="-713.74" y1="190.5" x2="-734.06" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
+<label x="-734.06" y="190.5" size="1.778" layer="95" grouprefs="MICROCONTROLLER"/>
 </segment>
 </net>
 <net name="VIN_F" class="0">
