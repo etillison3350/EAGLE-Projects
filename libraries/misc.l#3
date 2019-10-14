@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -2003,18 +2003,18 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </package>
 <package name="36.11-4011">
 <pad name="A1" x="2" y="6" drill="0.6"/>
-<pad name="11" x="0" y="0" drill="0.6"/>
+<pad name="11" x="0" y="0" drill="0.6" diameter="1.5"/>
 <pad name="A2" x="2" y="-6" drill="0.6"/>
-<pad name="14" x="14.2" y="6" drill="0.6"/>
-<pad name="12" x="14.2" y="-6" drill="0.6"/>
+<pad name="14" x="14.2" y="6" drill="0.6" diameter="1.5"/>
+<pad name="12" x="14.2" y="-6" drill="0.6" diameter="1.5"/>
 <wire x1="-1.4" y1="7.6" x2="17.6" y2="7.6" width="0.2" layer="21"/>
 <wire x1="17.6" y1="7.6" x2="17.6" y2="-7.6" width="0.2" layer="21"/>
 <wire x1="17.6" y1="-7.6" x2="-1.4" y2="-7.6" width="0.2" layer="21"/>
 <wire x1="-1.4" y1="-7.6" x2="-1.4" y2="7.6" width="0.2" layer="21"/>
 <wire x1="2" y1="6" x2="2" y2="4.5" width="0.127" layer="51"/>
-<wire x1="2" y1="2" x2="-1" y2="2" width="0.127" layer="51"/>
-<wire x1="2" y1="-6" x2="-1" y2="-6" width="0.127" layer="51"/>
-<wire x1="-1" y1="-6" x2="-1" y2="2" width="0.127" layer="51"/>
+<wire x1="2" y1="2" x2="-1.05" y2="2" width="0.127" layer="51"/>
+<wire x1="2" y1="-6" x2="-1.05" y2="-6" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-6" x2="-1.05" y2="2" width="0.127" layer="51"/>
 <wire x1="0" y1="0" x2="9.5" y2="0" width="0.127" layer="51"/>
 <wire x1="14.2" y1="-3" x2="14.2" y2="-6" width="0.127" layer="51"/>
 <wire x1="14.2" y1="3" x2="14.2" y2="6" width="0.127" layer="51"/>
@@ -2719,15 +2719,17 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <pin name="2" x="7.62" y="2.54" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="-7.62" y="0" visible="pin" length="short" direction="pas"/>
 <pin name="4" x="7.62" y="0" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="S" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="0" y="-5.08" visible="pin" length="point" direction="pas" rot="R90"/>
 <wire x1="-5.08" y1="2.54" x2="-3.302" y2="2.54" width="0.508" layer="94"/>
 <wire x1="-5.08" y1="0" x2="-3.302" y2="0" width="0.508" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="3.302" y2="2.54" width="0.508" layer="94"/>
 <wire x1="5.08" y1="0" x2="3.302" y2="0" width="0.508" layer="94"/>
-<wire x1="-5.842" y1="5.08" x2="-5.842" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.842" y1="-2.54" x2="5.842" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.842" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.842" y1="5.08" x2="-5.842" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-5.842" y1="-3.048" x2="0" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.048" x2="5.842" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-3.048" x2="5.842" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="5.842" y1="5.08" x2="-5.842" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.048" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="U">
 <wire x1="0" y1="-3.175" x2="0" y2="-1.905" width="0.254" layer="94"/>
@@ -3524,7 +3526,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="KPJX-4S-S">
+<deviceset name="KPJX-4S-S" prefix="J">
 <gates>
 <gate name="G$1" symbol="PINH2X2-S" x="0" y="0"/>
 </gates>
@@ -3536,6 +3538,42 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <connect gate="G$1" pin="3" pad="3 3A 3B 3C 3D"/>
 <connect gate="G$1" pin="4" pad="4 4A 4B 4C 4D"/>
 <connect gate="G$1" pin="S" pad="S1 S1A S1B S1C S1D S2 S2A S2B S2C S2D S3 S4 S5 S5A S5B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="36.11.9.005.4011" prefix="K">
+<gates>
+<gate name="G$1" symbol="RELAY-SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="36.11-4011">
+<connects>
+<connect gate="G$1" pin="1" pad="A1"/>
+<connect gate="G$1" pin="2" pad="A2"/>
+<connect gate="G$1" pin="3" pad="11"/>
+<connect gate="G$1" pin="4" pad="14"/>
+<connect gate="G$1" pin="5" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPDT-90" prefix="SW" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="U" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPDT-90">
+<connects>
+<connect gate="G$1" pin="O" pad="1"/>
+<connect gate="G$1" pin="P" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -314,11 +314,11 @@ Based on  the following source:
 <library name="misc">
 <packages>
 <package name="36.11-4011">
-<pad name="A1" x="2" y="6" drill="0.6"/>
-<pad name="11" x="0" y="0" drill="0.6" diameter="1.5"/>
-<pad name="A2" x="2" y="-6" drill="0.6"/>
-<pad name="14" x="14.2" y="6" drill="0.6" diameter="1.5"/>
-<pad name="12" x="14.2" y="-6" drill="0.6" diameter="1.5"/>
+<pad name="A1" x="2" y="6" drill="1.3"/>
+<pad name="11" x="0" y="0" drill="1.3"/>
+<pad name="A2" x="2" y="-6" drill="1.3"/>
+<pad name="14" x="14.2" y="6" drill="1.3"/>
+<pad name="12" x="14.2" y="-6" drill="1.3"/>
 <wire x1="-1.4" y1="7.6" x2="17.6" y2="7.6" width="0.2" layer="21"/>
 <wire x1="17.6" y1="7.6" x2="17.6" y2="-7.6" width="0.2" layer="21"/>
 <wire x1="17.6" y1="-7.6" x2="-1.4" y2="-7.6" width="0.2" layer="21"/>
@@ -378,36 +378,36 @@ Based on  the following source:
 <pad name="S5" x="0" y="-5.5" drill="1" shape="long"/>
 <pad name="S5B" x="-0.6" y="-5.5" drill="1"/>
 <pad name="S5A" x="0.6" y="-5.5" drill="1"/>
-<pad name="3B" x="2.5" y="-11.5" drill="0.6" shape="long" rot="R90"/>
-<pad name="3A" x="2.5" y="-10.5" drill="0.6" shape="long" rot="R90"/>
-<pad name="3C" x="2.5" y="-9.95" drill="0.6"/>
-<pad name="3D" x="2.5" y="-12.05" drill="0.6"/>
-<pad name="3" x="2.5" y="-11" drill="0.6"/>
-<pad name="4B" x="-2.5" y="-11.5" drill="0.6" shape="long" rot="R90"/>
-<pad name="4A" x="-2.5" y="-10.5" drill="0.6" shape="long" rot="R90"/>
-<pad name="4C" x="-2.5" y="-9.95" drill="0.6"/>
-<pad name="4D" x="-2.5" y="-12.05" drill="0.6"/>
-<pad name="4" x="-2.5" y="-11" drill="0.6"/>
-<pad name="1B" x="2.9" y="-15.15" drill="0.6" shape="long" rot="R90"/>
-<pad name="1A" x="2.9" y="-14.15" drill="0.6" shape="long" rot="R90"/>
-<pad name="1C" x="2.9" y="-13.6" drill="0.6"/>
-<pad name="1D" x="2.9" y="-15.7" drill="0.6"/>
-<pad name="1" x="2.9" y="-14.65" drill="0.6"/>
-<pad name="2B" x="-2.9" y="-15.15" drill="0.6" shape="long" rot="R90"/>
-<pad name="2A" x="-2.9" y="-14.15" drill="0.6" shape="long" rot="R90"/>
-<pad name="2C" x="-2.9" y="-13.6" drill="0.6"/>
-<pad name="2D" x="-2.9" y="-15.7" drill="0.6"/>
-<pad name="2" x="-2.9" y="-14.65" drill="0.6"/>
-<pad name="S1B" x="7.8" y="-16.5" drill="0.6" shape="long" rot="R90"/>
-<pad name="S1A" x="7.8" y="-15.5" drill="0.6" shape="long" rot="R90"/>
-<pad name="S1C" x="7.8" y="-14.95" drill="0.6"/>
-<pad name="S1D" x="7.8" y="-17.05" drill="0.6"/>
-<pad name="S1" x="7.8" y="-16" drill="0.6"/>
-<pad name="S2B" x="-7.8" y="-16.5" drill="0.6" shape="long" rot="R90"/>
-<pad name="S2A" x="-7.8" y="-15.5" drill="0.6" shape="long" rot="R90"/>
-<pad name="S2C" x="-7.8" y="-14.95" drill="0.6"/>
-<pad name="S2D" x="-7.8" y="-17.05" drill="0.6"/>
-<pad name="S2" x="-7.8" y="-16" drill="0.6"/>
+<pad name="3C" x="2.5" y="-11.5" drill="0.65" shape="long" rot="R90"/>
+<pad name="3F" x="2.5" y="-10.5" drill="0.65" shape="long" rot="R90"/>
+<pad name="3H" x="2.5" y="-9.95" drill="0.65" rot="R90"/>
+<pad name="3A" x="2.5" y="-12.05" drill="0.65" rot="R90"/>
+<pad name="3" x="2.5" y="-11" drill="0.65" rot="R90"/>
+<pad name="4C" x="-2.5" y="-11.5" drill="0.65" shape="long" rot="R90"/>
+<pad name="4F" x="-2.5" y="-10.5" drill="0.65" shape="long" rot="R90"/>
+<pad name="4H" x="-2.5" y="-9.95" drill="0.65" rot="R90"/>
+<pad name="4A" x="-2.5" y="-12.05" drill="0.65" rot="R90"/>
+<pad name="4" x="-2.5" y="-11" drill="0.65" rot="R90"/>
+<pad name="1C" x="2.9" y="-15.15" drill="0.65" shape="long" rot="R90"/>
+<pad name="1F" x="2.9" y="-14.15" drill="0.65" shape="long" rot="R90"/>
+<pad name="1H" x="2.9" y="-13.6" drill="0.65" rot="R90"/>
+<pad name="1A" x="2.9" y="-15.7" drill="0.65" rot="R90"/>
+<pad name="1" x="2.9" y="-14.65" drill="0.65" rot="R90"/>
+<pad name="2C" x="-2.9" y="-15.15" drill="0.65" shape="long" rot="R90"/>
+<pad name="2F" x="-2.9" y="-14.15" drill="0.65" shape="long" rot="R90"/>
+<pad name="2H" x="-2.9" y="-13.6" drill="0.65" rot="R90"/>
+<pad name="2A" x="-2.9" y="-15.7" drill="0.65" rot="R90"/>
+<pad name="2" x="-2.9" y="-14.65" drill="0.65" rot="R90"/>
+<pad name="S1C" x="7.8" y="-16.5" drill="0.65" shape="long" rot="R90"/>
+<pad name="S1F" x="7.8" y="-15.5" drill="0.65" shape="long" rot="R90"/>
+<pad name="S1H" x="7.8" y="-14.95" drill="0.65" rot="R90"/>
+<pad name="S1A" x="7.8" y="-17.05" drill="0.65" rot="R90"/>
+<pad name="S1" x="7.8" y="-16" drill="0.65" rot="R90"/>
+<pad name="S2C" x="-7.8" y="-16.5" drill="0.65" shape="long" rot="R90"/>
+<pad name="S2F" x="-7.8" y="-15.5" drill="0.65" shape="long" rot="R90"/>
+<pad name="S2H" x="-7.8" y="-14.95" drill="0.65" rot="R90"/>
+<pad name="S2A" x="-7.8" y="-17.05" drill="0.65" rot="R90"/>
+<pad name="S2" x="-7.8" y="-16" drill="0.65" rot="R90"/>
 <wire x1="-8" y1="-4" x2="-8" y2="-5.5" width="0.127" layer="21"/>
 <wire x1="-8" y1="-5.5" x2="-8" y2="-9.5" width="0.127" layer="51"/>
 <wire x1="-8" y1="-9.5" x2="-8" y2="-14" width="0.127" layer="21"/>
@@ -427,6 +427,30 @@ Based on  the following source:
 <wire x1="6.45" y1="0" x2="6.45" y2="-4" width="0.15" layer="21"/>
 <text x="-7.62" y="-19.05" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.62" y="-21.082" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="3E" x="2.5" y="-10.75" drill="0.65" rot="R90"/>
+<pad name="3G" x="2.5" y="-10.25" drill="0.65" rot="R90"/>
+<pad name="3B" x="2.5" y="-11.75" drill="0.65" rot="R90"/>
+<pad name="3D" x="2.5" y="-11.25" drill="0.65" rot="R90"/>
+<pad name="4E" x="-2.5" y="-10.75" drill="0.65" rot="R90"/>
+<pad name="4G" x="-2.5" y="-10.25" drill="0.65" rot="R90"/>
+<pad name="4D" x="-2.5" y="-11.25" drill="0.65" rot="R90"/>
+<pad name="4B" x="-2.5" y="-11.75" drill="0.65" rot="R90"/>
+<pad name="2E" x="-2.9" y="-14.4" drill="0.65" rot="R90"/>
+<pad name="2G" x="-2.9" y="-13.9" drill="0.65" rot="R90"/>
+<pad name="2D" x="-2.9" y="-14.9" drill="0.65" rot="R90"/>
+<pad name="2B" x="-2.9" y="-15.4" drill="0.65" rot="R90"/>
+<pad name="1B" x="2.9" y="-15.4" drill="0.65" rot="R90"/>
+<pad name="1D" x="2.9" y="-14.9" drill="0.65" rot="R90"/>
+<pad name="1E" x="2.9" y="-14.4" drill="0.65" rot="R90"/>
+<pad name="1G" x="2.9" y="-13.9" drill="0.65" rot="R90"/>
+<pad name="S1E" x="7.8" y="-15.75" drill="0.65" rot="R90"/>
+<pad name="S1G" x="7.8" y="-15.25" drill="0.65" rot="R90"/>
+<pad name="S1D" x="7.8" y="-16.25" drill="0.65" rot="R90"/>
+<pad name="S1B" x="7.8" y="-16.75" drill="0.65" rot="R90"/>
+<pad name="S2G" x="-7.8" y="-15.25" drill="0.65" rot="R90"/>
+<pad name="S2E" x="-7.8" y="-15.75" drill="0.65" rot="R90"/>
+<pad name="S2D" x="-7.8" y="-16.25" drill="0.65" rot="R90"/>
+<pad name="S2B" x="-7.8" y="-16.75" drill="0.65" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -528,11 +552,11 @@ Based on  the following source:
 <devices>
 <device name="" package="KPJX-4S-S">
 <connects>
-<connect gate="G$1" pin="1" pad="1 1A 1B 1C 1D"/>
-<connect gate="G$1" pin="2" pad="2 2A 2B 2C 2D"/>
-<connect gate="G$1" pin="3" pad="3 3A 3B 3C 3D"/>
-<connect gate="G$1" pin="4" pad="4 4A 4B 4C 4D"/>
-<connect gate="G$1" pin="S" pad="S1 S1A S1B S1C S1D S2 S2A S2B S2C S2D S3 S4 S5 S5A S5B"/>
+<connect gate="G$1" pin="1" pad="1 1A 1B 1C 1D 1E 1F 1G 1H"/>
+<connect gate="G$1" pin="2" pad="2 2A 2B 2C 2D 2E 2F 2G 2H"/>
+<connect gate="G$1" pin="3" pad="3 3A 3B 3C 3D 3E 3F 3G 3H"/>
+<connect gate="G$1" pin="4" pad="4 4A 4B 4C 4D 4E 4F 4G 4H"/>
+<connect gate="G$1" pin="S" pad="S1 S1A S1B S1C S1D S1E S1F S1G S1H S2 S2A S2B S2C S2D S2E S2F S2G S2H S3 S4 S5 S5A S5B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1464,6 +1488,9 @@ Based on the previous libraries:
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="diff" width="0" drill="0">
+<clearance class="1" value="0.5"/>
+</class>
 </classes>
 <parts>
 <part name="X1" library="con-berg" library_urn="urn:adsk.eagle:library:130" deviceset="PN61729-S" device="" package3d_urn="urn:adsk.eagle:package:6149/1"/>
@@ -1600,7 +1627,7 @@ Based on the previous libraries:
 <label x="91.44" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB_N" class="0">
+<net name="USB_N" class="1">
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
 <pinref part="X1" gate="G$1" pin="2"/>
@@ -1608,7 +1635,7 @@ Based on the previous libraries:
 <label x="91.44" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB_P" class="0">
+<net name="USB_P" class="1">
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <pinref part="X1" gate="G$1" pin="3"/>
